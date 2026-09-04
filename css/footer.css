@@ -1,0 +1,134 @@
+.footer {
+  background: var(--primary-green-dark, #08251e);
+  color: #ffffff;
+  padding: 80px 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(
+    to right,
+    var(--primary-saffron, #ff671f) 0% 33.33%,
+    #ffffff 33.33% 66.66%,
+    var(--primary-green, #046a38) 66.66% 100%
+  );
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 50px;
+  padding-bottom: 60px;
+}
+
+.footer-about .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-about .logo span span {
+  color: var(--primary-saffron, #ff671f);
+}
+
+.footer-about p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  line-height: 1.7;
+  max-width: 320px;
+  margin-bottom: 24px;
+}
+
+.social-links {
+  display: flex;
+  gap: 12px;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+  background: var(--primary-saffron, #ff671f);
+  border-color: var(--primary-saffron, #ff671f);
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-column h4 {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+  position: relative;
+}
+
+.footer-column a {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 13px;
+  transition: color 0.25s ease, transform 0.25s ease;
+  display: inline-block;
+}
+
+.footer-column a:hover {
+  color: var(--primary-saffron, #ff671f);
+  transform: translateX(4px);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 24px 0;
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  letter-spacing: 0.3px;
+}
+
+@media (max-width: 992px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .footer {
+    padding-top: 60px;
+  }
+}

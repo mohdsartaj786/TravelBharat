@@ -1,0 +1,294 @@
+{
+  "states": [
+    {
+      "id": "andhra-pradesh",
+      "state": "Andhra Pradesh",
+      "dish": "Gongura Pachadi",
+      "description": "A famous Andhra preparation made with tangy sorrel leaves, green chillies, garlic, and aromatic spices.",
+      "location": "Amaravati",
+      "image": "images/food/states/andhra-pradesh.jpg"
+    },
+    {
+      "id": "arunachal-pradesh",
+      "state": "Arunachal Pradesh",
+      "dish": "Thukpa",
+      "description": "A comforting hot noodle soup prepared with local seasonal greens, ginger, and warming Himalayan broth.",
+      "location": "Itanagar",
+      "image": "images/food/states/arunachal-pradesh.jpg"
+    },
+    {
+      "id": "assam",
+      "state": "Assam",
+      "dish": "Masor Tenga",
+      "description": "A light, refreshing, and tangy fish curry stewed with ripe tomatoes, elephant apple, and lemon.",
+      "location": "Guwahati",
+      "image": "images/food/states/assam.jpg"
+    },
+    {
+      "id": "bihar",
+      "state": "Bihar",
+      "dish": "Litti Chokha",
+      "description": "Wood-fired roasted wheat balls stuffed with spiced roasted gram flour (sattu), served with roasted mash.",
+      "location": "Patna",
+      "image": "images/food/states/bihar.jpg"
+    },
+    {
+      "id": "chhattisgarh",
+      "state": "Chhattisgarh",
+      "dish": "Fara",
+      "description": "Steamed and gently pan-fried rice flour dumplings seasoned with mustard seeds, curry leaves, and green chillies.",
+      "location": "Raipur",
+      "image": "images/food/states/chhattisgarh.jpg"
+    },
+    {
+      "id": "goa",
+      "state": "Goa",
+      "dish": "Goan Fish Curry",
+      "description": "Fresh kingfish simmered in a coconut milk gravy infused with red chillies, coriander, and sour kokum.",
+      "location": "Panaji",
+      "image": "images/food/states/goa.jpg"
+    },
+    {
+      "id": "gujarat",
+      "state": "Gujarat",
+      "dish": "Dhokla",
+      "description": "Spongy and savoury steamed cakes made from fermented gram flour batter, tempered with mustard seeds.",
+      "location": "Ahmedabad",
+      "image": "images/food/states/gujarat.jpg"
+    },
+    {
+      "id": "haryana",
+      "state": "Haryana",
+      "dish": "Bajra Khichdi",
+      "description": "A nutrient-rich slow-cooked porridge of pearl millet and yellow lentils, paired with fresh butter.",
+      "location": "Kurukshetra",
+      "image": "images/food/states/haryana.jpg"
+    },
+    {
+      "id": "himachal-pradesh",
+      "state": "Himachal Pradesh",
+      "dish": "Dham",
+      "description": "A ceremonial vegetarian platter featuring red kidney beans (rajma) slow-cooked in rich yogurt gravy.",
+      "location": "Shimla",
+      "image": "images/food/states/himachal-pradesh.jpg"
+    },
+    {
+      "id": "jharkhand",
+      "state": "Jharkhand",
+      "dish": "Dhuska",
+      "description": "Golden-fried savoury pancakes crafted from rice and chana dal batter, served hot with spicy potato curry.",
+      "location": "Ranchi",
+      "image": "images/food/states/jharkhand.jpg"
+    },
+    {
+      "id": "karnataka",
+      "state": "Karnataka",
+      "dish": "Mysore Masala Dosa",
+      "description": "A crisp fermented crepe layered with red garlic chutney, filled with spiced potato bhaji and ghee.",
+      "location": "Bengaluru",
+      "image": "images/food/states/karnataka.jpg"
+    },
+    {
+      "id": "kerala",
+      "state": "Kerala",
+      "dish": "Kerala Sadhya",
+      "description": "A grand celebratory vegetarian banquet of over twenty traditional dishes served on a banana leaf.",
+      "location": "Kochi",
+      "image": "images/food/states/kerala.jpg"
+    },
+    {
+      "id": "madhya-pradesh",
+      "state": "Madhya Pradesh",
+      "dish": "Indori Poha",
+      "description": "Delicate steamed flattened rice topped with crispy sev, pomegranate pearls, and special jeeravan masala.",
+      "location": "Indore",
+      "image": "images/food/states/madhya-pradesh.jpg"
+    },
+    {
+      "id": "maharashtra",
+      "state": "Maharashtra",
+      "dish": "Vada Pav",
+      "description": "Spiced batter-fried potato dumpling inside a soft pav with dry garlic and spicy mint-coriander chutneys.",
+      "location": "Mumbai",
+      "image": "images/food/states/maharashtra.jpg"
+    },
+    {
+      "id": "manipur",
+      "state": "Manipur",
+      "dish": "Eromba",
+      "description": "A traditional preparation of boiled vegetables, fiery king chillies, and fermented fish (ngari).",
+      "location": "Imphal",
+      "image": "images/food/states/manipur.jpg"
+    },
+    {
+      "id": "meghalaya",
+      "state": "Meghalaya",
+      "dish": "Jadoh",
+      "description": "An aromatic indigenous Khasi dish of short-grain red hill rice cooked with meat, ginger, and bay leaves.",
+      "location": "Shillong",
+      "image": "images/food/states/meghalaya.jpg"
+    },
+    {
+      "id": "mizoram",
+      "state": "Mizoram",
+      "dish": "Bai",
+      "description": "A wholesome vegetable stew made with tender bamboo shoots, mustard leaves, and local herbs.",
+      "location": "Aizawl",
+      "image": "images/food/states/mizoram.jpg"
+    },
+    {
+      "id": "nagaland",
+      "state": "Nagaland",
+      "dish": "Smoked Pork",
+      "description": "Wood-smoked pork pieces slow-cooked with fermented bamboo shoot paste and hot Raja Mircha.",
+      "location": "Kohima",
+      "image": "images/food/states/nagaland.jpg"
+    },
+    {
+      "id": "odisha",
+      "state": "Odisha",
+      "dish": "Dalma",
+      "description": "A temple dish of lentils cooked with raw papaya, pumpkin, and plantains, tempered in pure desi ghee.",
+      "location": "Bhubaneswar",
+      "image": "images/food/states/odisha.jpg"
+    },
+    {
+      "id": "punjab",
+      "state": "Punjab",
+      "dish": "Sarson da Saag",
+      "description": "Slow-simmered mustard greens pureed with aromatics, served with cornmeal flatbreads (makki di roti).",
+      "location": "Amritsar",
+      "image": "images/food/states/punjab.jpg"
+    },
+    {
+      "id": "rajasthan",
+      "state": "Rajasthan",
+      "dish": "Dal Baati Churma",
+      "description": "Baked wheat dumplings dipped in desi ghee, served with five-lentil panchmel dal and sweet churma.",
+      "location": "Jaipur",
+      "image": "images/food/states/rajasthan.jpg"
+    },
+    {
+      "id": "sikkim",
+      "state": "Sikkim",
+      "dish": "Momos",
+      "description": "Handcrafted steamed flour parcels filled with minced seasoned vegetables or meats, with red chilli dip.",
+      "location": "Gangtok",
+      "image": "images/food/states/sikkim.jpg"
+    },
+    {
+      "id": "tamil-nadu",
+      "state": "Tamil Nadu",
+      "dish": "Ven Pongal",
+      "description": "Comforting porridge of short-grain rice and lentils tempered with ghee-fried whole black peppercorns and cashews.",
+      "location": "Chennai",
+      "image": "images/food/states/tamil-nadu.jpg"
+    },
+    {
+      "id": "telangana",
+      "state": "Telangana",
+      "dish": "Hyderabadi Biryani",
+      "description": "Long-grain basmati rice and marinated meat layered with saffron milk, fried onions, and mint in dum style.",
+      "location": "Hyderabad",
+      "image": "images/food/states/telangana.jpg"
+    },
+    {
+      "id": "tripura",
+      "state": "Tripura",
+      "dish": "Mui Borok",
+      "description": "Authentic Tripuri preparation featuring fresh river fish or vegetables cooked using fermented fish paste (berma).",
+      "location": "Agartala",
+      "image": "images/food/states/tripura.jpg"
+    },
+    {
+      "id": "uttar-pradesh",
+      "state": "Uttar Pradesh",
+      "dish": "Awadhi Biryani",
+      "description": "Royal Lucknowi pakki biryani where meat is cooked in spiced yakhni stock before layering with aromatic rice.",
+      "location": "Lucknow",
+      "image": "images/food/states/uttar-pradesh.jpg"
+    },
+    {
+      "id": "uttarakhand",
+      "state": "Uttarakhand",
+      "dish": "Kafuli",
+      "description": "Nutritious Garhwali gravy made with pureed spinach and fenugreek leaves, thickened and seasoned with spices.",
+      "location": "Dehradun",
+      "image": "images/food/states/uttarakhand.jpg"
+    },
+    {
+      "id": "west-bengal",
+      "state": "West Bengal",
+      "dish": "Machher Jhol",
+      "description": "Light freshwater carp curry cooked with potatoes and ridge gourd in mustard oil tempered with panch phoron.",
+      "location": "Kolkata",
+      "image": "images/food/states/west-bengal.jpg"
+    }
+  ],
+  "unionTerritories": [
+    {
+      "id": "andaman-nicobar",
+      "state": "Andaman & Nicobar",
+      "dish": "Island Seafood Curry",
+      "description": "Succulent local catch simmered in rich coconut milk, fresh tamarind, curry leaves, and coastal spices.",
+      "location": "Port Blair",
+      "image": "images/food/ut/andaman-nicobar.jpg"
+    },
+    {
+      "id": "chandigarh",
+      "state": "Chandigarh",
+      "dish": "Chole Bhature",
+      "description": "Spicy dark chickpeas stewed in anar dana gravy, paired with hot, fluffy deep-fried leavened bread.",
+      "location": "Chandigarh",
+      "image": "images/food/ut/chandigarh.jpg"
+    },
+    {
+      "id": "daman-diu",
+      "state": "DNH & DD",
+      "dish": "Cozee Seafood Curry",
+      "description": "A coastal curry that reflects the historic convergence of Gujarati and Portuguese culinary methods.",
+      "location": "Daman",
+      "image": "images/food/ut/daman-diu.jpg"
+    },
+    {
+      "id": "delhi",
+      "state": "Delhi",
+      "dish": "Dilli ki Chaat",
+      "description": "Crispy potato patties topped with sweetened yogurt, tangy tamarind saunth, spicy mint chutney, and sev.",
+      "location": "New Delhi",
+      "image": "images/food/ut/delhi.jpg"
+    },
+    {
+      "id": "jammu-kashmir",
+      "state": "Jammu & Kashmir",
+      "dish": "Rogan Josh",
+      "description": "Tender meat slow-cooked in an aromatic red gravy flavoured with Kashmiri chillies, dried ginger, and fennel seeds.",
+      "location": "Srinagar",
+      "image": "images/food/ut/jammu-kashmir.jpg"
+    },
+    {
+      "id": "ladakh",
+      "state": "Ladakh",
+      "dish": "Ladakhi Skyu",
+      "description": "A cold-climate stew cooked with small hand-pressed wheat pasta, root vegetables, and meat broth.",
+      "location": "Leh",
+      "image": "images/food/ut/ladakh.jpg"
+    },
+    {
+      "id": "lakshadweep",
+      "state": "Lakshadweep",
+      "dish": "Mas Kuni Tuna",
+      "description": "Finely shredded fresh oceanic tuna tossed with grated coconut, shallots, green chillies, and freshly squeezed lime.",
+      "location": "Kavaratti",
+      "image": "images/food/ut/lakshadweep.jpg"
+    },
+    {
+      "id": "puducherry",
+      "state": "Puducherry",
+      "dish": "Franco-Tamil Bouillabaisse",
+      "description": "A fusion dish combining classic French seafood broth techniques with local Tamil spices like turmeric and mustard.",
+      "location": "Puducherry",
+      "image": "images/food/ut/puducherry.jpg"
+    }
+  ]
+}

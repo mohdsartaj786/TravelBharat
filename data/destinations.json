@@ -1,0 +1,65 @@
+[
+  {
+    "id": "varanasi",
+    "name": "Varanasi",
+    "state": "Uttar Pradesh",
+    "description": "Experience the spiritual beauty of Varanasi, the ancient city on the banks of the River Ganga.",
+    "image": "images/destinations/varanasi.jpg",
+    "location": "Uttar Pradesh",
+    "category": "Spiritual"
+  },
+  {
+    "id": "udaipur",
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "description": "Discover the romantic lakes, royal palaces and beautiful heritage of Udaipur.",
+    "image": "images/destinations/udaipur.jpg",
+    "location": "Rajasthan",
+    "category": "Heritage"
+  },
+  {
+    "id": "taj-mahal",
+    "name": "Taj Mahal",
+    "state": "Uttar Pradesh",
+    "description": "Visit the iconic Taj Mahal, one of India's most famous monuments and symbols of love.",
+    "image": "images/destinations/taj-mahal.jpg",
+    "location": "Agra, Uttar Pradesh",
+    "category": "Heritage"
+  },
+  {
+    "id": "manali",
+    "name": "Manali",
+    "state": "Himachal Pradesh",
+    "description": "Enjoy the scenic mountains, valleys, rivers and adventure activities of Manali.",
+    "image": "images/destinations/manali.jpg",
+    "location": "Himachal Pradesh",
+    "category": "Adventure"
+  },
+  {
+    "id": "kerala-backwaters",
+    "name": "Kerala Backwaters",
+    "state": "Kerala",
+    "description": "Relax among peaceful waterways, lush greenery and traditional houseboats in Kerala.",
+    "image": "images/destinations/kerala-backwaters.jpg",
+    "location": "Kerala",
+    "category": "Nature"
+  },
+  {
+    "id": "jaipur",
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "description": "Explore the Pink City with its magnificent forts, palaces, markets and rich royal heritage.",
+    "image": "images/destinations/jaipur.jpg",
+    "location": "Rajasthan",
+    "category": "Heritage"
+  },
+  {
+    "id": "goa-beaches",
+    "name": "Goa Beaches",
+    "state": "Goa",
+    "description": "Enjoy beautiful beaches, coastal scenery, water activities and vibrant culture in Goa.",
+    "image": "images/destinations/goa-beaches.jpg",
+    "location": "Goa",
+    "category": "Beach"
+  }
+]

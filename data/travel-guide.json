@@ -1,0 +1,149 @@
+{
+  "guides": [
+    {
+      "id": "best-time",
+      "number": "01",
+      "icon": "🗓️",
+      "title": "Best Time to Visit",
+      "description": "Discover the best seasons and months to explore different parts of India.",
+      "link": "guide-details.html?id=best-time",
+      "intro": "India has different climates across its regions, so the best time to visit depends on the destination and the experience you want.",
+      "sections": [
+        {
+          "title": "Winter Season",
+          "content": "October to February is a comfortable time to explore many parts of India."
+        },
+        {
+          "title": "Summer Season",
+          "content": "March to June can be hot in many regions. Hill stations are good choices during this season."
+        },
+        {
+          "title": "Monsoon Season",
+          "content": "July to September brings rainfall to many parts of India. Kerala, Goa and the Western Ghats are beautiful during this season."
+        }
+      ],
+      "tip": "Check the local weather before planning your trip."
+    },
+    {
+      "id": "budget-travel",
+      "number": "02",
+      "icon": "💰",
+      "title": "Budget Travel",
+      "description": "Plan your Indian trip with smart budgeting tips for accommodation, food and transport.",
+      "link": "guide-details.html?id=budget-travel",
+      "intro": "India offers travel options for different budgets. With proper planning, you can enjoy great destinations without spending too much.",
+      "sections": [
+        {
+          "title": "Affordable Accommodation",
+          "content": "Hostels, guesthouses, homestays and budget hotels can help reduce accommodation expenses."
+        },
+        {
+          "title": "Public Transport",
+          "content": "Trains, buses and metro services are affordable options for travelling between cities."
+        },
+        {
+          "title": "Local Food",
+          "content": "Local restaurants and regional food provide delicious meals at affordable prices."
+        }
+      ],
+      "tip": "Create a daily budget and keep some extra money for emergencies."
+    },
+    {
+      "id": "transport",
+      "number": "03",
+      "icon": "🚆",
+      "title": "Getting Around",
+      "description": "Learn about trains, buses, flights, taxis and other ways to travel across India.",
+      "link": "guide-details.html?id=transport",
+      "intro": "India has a large transportation network that makes travelling between cities, states and destinations easier.",
+      "sections": [
+        {
+          "title": "Trains",
+          "content": "Indian Railways connects major cities, towns and many tourist destinations."
+        },
+        {
+          "title": "Buses",
+          "content": "Government and private buses are useful for travelling between nearby cities and towns."
+        },
+        {
+          "title": "Flights",
+          "content": "Domestic flights are useful when travelling long distances and when you want to save time."
+        }
+      ],
+      "tip": "Book trains and flights early during holidays and peak travel seasons."
+    },
+    {
+      "id": "packing-guide",
+      "number": "04",
+      "icon": "🎒",
+      "title": "Packing Guide",
+      "description": "Know what to pack for different destinations, seasons and types of travel.",
+      "link": "guide-details.html?id=packing-guide",
+      "intro": "A good packing plan makes your journey more comfortable. Your packing list should depend on the destination and weather.",
+      "sections": [
+        {
+          "title": "Clothing",
+          "content": "Pack comfortable clothes according to the weather and destination."
+        },
+        {
+          "title": "Travel Essentials",
+          "content": "Keep your ID, tickets, medicines, chargers, power bank and toiletries with you."
+        },
+        {
+          "title": "Destination Specific Items",
+          "content": "Beach destinations may require sunscreen and swimwear, while mountain destinations may require warm clothes."
+        }
+      ],
+      "tip": "Keep important documents and valuables in a safe place."
+    },
+    {
+      "id": "travel-safety",
+      "number": "05",
+      "icon": "🛡️",
+      "title": "Travel Safety",
+      "description": "Useful safety tips to help you enjoy a comfortable and secure journey.",
+      "link": "guide-details.html?id=travel-safety",
+      "intro": "Good planning and awareness can make your journey safer and more comfortable.",
+      "sections": [
+        {
+          "title": "Protect Your Belongings",
+          "content": "Keep your phone, wallet, passport and valuables secure."
+        },
+        {
+          "title": "Stay Connected",
+          "content": "Keep your phone charged and share your travel plan with someone you trust."
+        },
+        {
+          "title": "Emergency Preparation",
+          "content": "Save important emergency numbers and keep copies of important documents."
+        }
+      ],
+      "tip": "Stay alert in crowded places and avoid sharing personal information with strangers."
+    },
+    {
+      "id": "responsible-travel",
+      "number": "06",
+      "icon": "🌱",
+      "title": "Responsible Travel",
+      "description": "Travel responsibly by respecting local communities, culture and the environment.",
+      "link": "guide-details.html?id=responsible-travel",
+      "intro": "Responsible tourism means enjoying destinations while respecting the environment, local communities and cultural heritage.",
+      "sections": [
+        {
+          "title": "Respect Local Culture",
+          "content": "Respect local traditions, customs, religious places and dress codes."
+        },
+        {
+          "title": "Reduce Waste",
+          "content": "Avoid unnecessary plastic, carry reusable items and dispose of waste properly."
+        },
+        {
+          "title": "Support Local Communities",
+          "content": "Buy local products, eat at local restaurants and support local services."
+        }
+      ],
+      "tip": "Leave every destination as clean and beautiful as you found it."
+    }
+  ]
+}
+

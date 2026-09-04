@@ -1,0 +1,328 @@
+{
+  "festivals": [
+    {
+      "id": "andhra-pradesh",
+      "state": "Andhra Pradesh",
+      "name": "Ugadi",
+      "month": "March / April",
+      "description": "Ugadi marks the Telugu New Year and is celebrated with traditional rituals, festive food and cultural gatherings.",
+      "location": "Amaravati",
+      "image": "images/festivals/states/andhra-pradesh.jpg"
+    },
+    {
+      "id": "arunachal-pradesh",
+      "state": "Arunachal Pradesh",
+      "name": "Losar",
+      "month": "February / March",
+      "description": "Losar is the Tibetan New Year celebrated with prayers, traditional dances, colorful decorations and community gatherings.",
+      "location": "Tawang",
+      "image": "images/festivals/states/arunachal-pradesh.jpg"
+    },
+    {
+      "id": "assam",
+      "state": "Assam",
+      "name": "Bihu",
+      "month": "April",
+      "description": "Bihu is Assam's famous festival featuring traditional dance, music, feasts and celebrations welcoming the agricultural season.",
+      "location": "Guwahati",
+      "image": "images/festivals/bihu.jpg"
+    },
+    {
+      "id": "bihar",
+      "state": "Bihar",
+      "name": "Chhath Puja",
+      "month": "October / November",
+      "description": "Chhath Puja is a major festival dedicated to the Sun God, celebrated with fasting, prayers and offerings near rivers and ponds.",
+      "location": "Patna",
+      "image": "images/festivals/states/bihar.jpg"
+    },
+    {
+      "id": "chhattisgarh",
+      "state": "Chhattisgarh",
+      "name": "Bastar Dussehra",
+      "month": "September / October",
+      "description": "Bastar Dussehra is a unique tribal festival known for its traditional rituals, processions and rich local cultural heritage.",
+      "location": "Jagdalpur",
+      "image": "images/festivals/states/chhattisgarh.jpg"
+    },
+    {
+      "id": "goa",
+      "state": "Goa",
+      "name": "Goa Carnival",
+      "month": "February / March",
+      "description": "Goa Carnival brings colorful parades, music, dance, decorated floats and lively street celebrations.",
+      "location": "Panaji",
+      "image": "images/festivals/states/goa.jpg"
+    },
+    {
+      "id": "gujarat",
+      "state": "Gujarat",
+      "name": "Navratri",
+      "month": "September / October",
+      "description": "Gujarat is famous for its energetic Navratri celebrations featuring Garba, Dandiya, traditional clothing and music.",
+      "location": "Ahmedabad",
+      "image": "images/festivals/states/gujarat.jpg"
+    },
+    {
+      "id": "haryana",
+      "state": "Haryana",
+      "name": "Baisakhi",
+      "month": "April",
+      "description": "Baisakhi is celebrated with traditional dances, fairs, music and festivities marking the harvest season.",
+      "location": "Kurukshetra",
+      "image": "images/festivals/states/haryana.jpg"
+    },
+    {
+      "id": "himachal-pradesh",
+      "state": "Himachal Pradesh",
+      "name": "Kullu Dussehra",
+      "month": "October",
+      "description": "Kullu Dussehra is famous for its grand processions, temple traditions, folk performances and colorful cultural celebrations.",
+      "location": "Kullu",
+      "image": "images/festivals/states/himachal-pradesh.jpg"
+    },
+    {
+      "id": "jharkhand",
+      "state": "Jharkhand",
+      "name": "Sarhul",
+      "month": "March / April",
+      "description": "Sarhul is a major tribal festival celebrating nature, trees, community traditions and the arrival of spring.",
+      "location": "Ranchi",
+      "image": "images/festivals/states/jharkhand.jpg"
+    },
+    {
+      "id": "karnataka",
+      "state": "Karnataka",
+      "name": "Mysuru Dasara",
+      "month": "September / October",
+      "description": "Mysuru Dasara is a spectacular celebration featuring illuminated palaces, cultural programs and the famous royal procession.",
+      "location": "Mysuru",
+      "image": "images/festivals/states/karnataka.jpg"
+    },
+    {
+      "id": "kerala",
+      "state": "Kerala",
+      "name": "Onam",
+      "month": "August / September",
+      "description": "Onam is Kerala's major harvest festival celebrated with flower carpets, traditional feasts, boat races and cultural performances.",
+      "location": "Kochi",
+      "image": "images/festivals/onam.jpg"
+    },
+    {
+      "id": "madhya-pradesh",
+      "state": "Madhya Pradesh",
+      "name": "Bhagoria",
+      "month": "March",
+      "description": "Bhagoria is a colorful tribal festival known for traditional music, dance, fairs and vibrant community celebrations.",
+      "location": "Jhabua",
+      "image": "images/festivals/states/madhya-pradesh.jpg"
+    },
+    {
+      "id": "maharashtra",
+      "state": "Maharashtra",
+      "name": "Ganesh Chaturthi",
+      "month": "August / September",
+      "description": "Ganesh Chaturthi is celebrated with beautifully decorated Ganesha idols, prayers, cultural events and grand processions.",
+      "location": "Mumbai",
+      "image": "images/festivals/states/maharashtra.jpg"
+    },
+    {
+      "id": "manipur",
+      "state": "Manipur",
+      "name": "Yaoshang",
+      "month": "March",
+      "description": "Yaoshang is Manipur's popular spring festival featuring traditional sports, music, dance and community celebrations.",
+      "location": "Imphal",
+      "image": "images/festivals/states/manipur.jpg"
+    },
+    {
+      "id": "meghalaya",
+      "state": "Meghalaya",
+      "name": "Wangala",
+      "month": "November",
+      "description": "Wangala is the Garo harvest festival celebrated with traditional drums, dances, costumes and thanksgiving rituals.",
+      "location": "Tura",
+      "image": "images/festivals/states/meghalaya.jpg"
+    },
+    {
+      "id": "mizoram",
+      "state": "Mizoram",
+      "name": "Chapchar Kut",
+      "month": "March",
+      "description": "Chapchar Kut is a vibrant spring festival featuring traditional dances, music, costumes and cultural performances.",
+      "location": "Aizawl",
+      "image": "images/festivals/states/mizoram.jpg"
+    },
+    {
+      "id": "nagaland",
+      "state": "Nagaland",
+      "name": "Hornbill Festival",
+      "month": "December",
+      "description": "Hornbill Festival showcases the rich tribal heritage of Nagaland through traditional dances, music, food and crafts.",
+      "location": "Kisama, Kohima",
+      "image": "images/festivals/states/nagaland.jpg"
+    },
+    {
+      "id": "odisha",
+      "state": "Odisha",
+      "name": "Rath Yatra",
+      "month": "June / July",
+      "description": "Rath Yatra is the grand chariot festival of Lord Jagannath, attracting devotees and visitors from across India.",
+      "location": "Puri",
+      "image": "images/festivals/states/odisha.jpg"
+    },
+    {
+      "id": "punjab",
+      "state": "Punjab",
+      "name": "Baisakhi",
+      "month": "April",
+      "description": "Baisakhi is celebrated as a harvest festival with energetic Bhangra, Giddha, fairs and traditional Punjabi food.",
+      "location": "Amritsar",
+      "image": "images/festivals/states/punjab.jpg"
+    },
+    {
+      "id": "rajasthan",
+      "state": "Rajasthan",
+      "name": "Gangaur",
+      "month": "March / April",
+      "description": "Gangaur is a traditional Rajasthani festival celebrated with colorful processions, folk music and beautifully decorated idols.",
+      "location": "Jaipur",
+      "image": "images/festivals/states/rajasthan.jpg"
+    },
+    {
+      "id": "sikkim",
+      "state": "Sikkim",
+      "name": "Losar",
+      "month": "February / March",
+      "description": "Losar is celebrated with monastery prayers, traditional dances, colorful decorations and Tibetan Buddhist cultural traditions.",
+      "location": "Gangtok",
+      "image": "images/festivals/states/sikkim.jpg"
+    },
+    {
+      "id": "tamil-nadu",
+      "state": "Tamil Nadu",
+      "name": "Pongal",
+      "month": "January",
+      "description": "Pongal is Tamil Nadu's major harvest festival celebrated with traditional dishes, decorated homes, kolams and cultural activities.",
+      "location": "Madurai",
+      "image": "images/festivals/pongal.jpg"
+    },
+    {
+      "id": "telangana",
+      "state": "Telangana",
+      "name": "Bathukamma",
+      "month": "September / October",
+      "description": "Bathukamma is a beautiful floral festival where women create colorful flower arrangements and celebrate with songs and dances.",
+      "location": "Hyderabad",
+      "image": "images/festivals/states/telangana.jpg"
+    },
+    {
+      "id": "tripura",
+      "state": "Tripura",
+      "name": "Kharchi Puja",
+      "month": "July",
+      "description": "Kharchi Puja is an important festival of Tripura featuring temple rituals, cultural performances and traditional celebrations.",
+      "location": "Agartala",
+      "image": "images/festivals/states/tripura.jpg"
+    },
+    {
+      "id": "uttar-pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Holi",
+      "month": "March",
+      "description": "Holi is celebrated across Uttar Pradesh with colors, music, sweets and joyful gatherings, especially famous in Mathura and Vrindavan.",
+      "location": "Mathura & Vrindavan",
+      "image": "images/festivals/holi.jpg"
+    },
+    {
+      "id": "uttarakhand",
+      "state": "Uttarakhand",
+      "name": "Nanda Devi Festival",
+      "month": "August / September",
+      "description": "Nanda Devi celebrations showcase the spiritual traditions, folk culture and colorful processions of Uttarakhand's mountain communities.",
+      "location": "Almora",
+      "image": "images/festivals/states/uttarakhand.jpg"
+    },
+    {
+      "id": "west-bengal",
+      "state": "West Bengal",
+      "name": "Durga Puja",
+      "month": "September / October",
+      "description": "Durga Puja is West Bengal's grandest festival, famous for artistic pandals, beautiful idols, cultural performances and processions.",
+      "location": "Kolkata",
+      "image": "images/festivals/durga-puja.jpg"
+    },
+    {
+      "id": "andaman-nicobar",
+      "state": "Andaman & Nicobar Islands",
+      "name": "Island Tourism Festival",
+      "month": "January",
+      "description": "The Island Tourism Festival celebrates the culture, traditions, music, crafts and tourism heritage of the islands.",
+      "location": "Port Blair",
+      "image": "images/festivals/ut/andaman-nicobar.jpg"
+    },
+    {
+      "id": "chandigarh",
+      "state": "Chandigarh",
+      "name": "Rose Festival",
+      "month": "February",
+      "description": "The Rose Festival is a colorful cultural event featuring beautiful rose displays, competitions, music and entertainment.",
+      "location": "Chandigarh",
+      "image": "images/festivals/ut/chandigarh.jpg"
+    },
+    {
+      "id": "daman-diu",
+      "state": "Dadra & Nagar Haveli and Daman & Diu",
+      "name": "Nariyal Purnima",
+      "month": "August",
+      "description": "Nariyal Purnima is celebrated in coastal communities with coconut offerings, traditional rituals and cultural activities.",
+      "location": "Daman",
+      "image": "images/festivals/ut/daman-diu.jpg"
+    },
+    {
+      "id": "delhi",
+      "state": "Delhi",
+      "name": "Diwali",
+      "month": "October / November",
+      "description": "Diwali transforms Delhi with lights, decorations, traditional sweets, prayers and festive gatherings across the city.",
+      "location": "New Delhi",
+      "image": "images/festivals/diwali.jpg"
+    },
+    {
+      "id": "jammu-kashmir",
+      "state": "Jammu & Kashmir",
+      "name": "Tulip Festival",
+      "month": "April",
+      "description": "The Tulip Festival celebrates the arrival of spring with millions of colorful tulips and cultural programs in Kashmir.",
+      "location": "Srinagar",
+      "image": "images/festivals/ut/jammu-kashmir.jpg"
+    },
+    {
+      "id": "ladakh",
+      "state": "Ladakh",
+      "name": "Hemis Festival",
+      "month": "June / July",
+      "description": "Hemis Festival is a famous Buddhist celebration featuring masked dances, traditional music, prayers and monastery rituals.",
+      "location": "Leh",
+      "image": "images/festivals/ut/ladakh.jpg"
+    },
+    {
+      "id": "lakshadweep",
+      "state": "Lakshadweep",
+      "name": "Eid Celebrations",
+      "month": "Varies",
+      "description": "Eid is celebrated across Lakshadweep with prayers, traditional food, family gatherings and vibrant community celebrations.",
+      "location": "Kavaratti",
+      "image": "images/festivals/ut/lakshadweep.jpg"
+    },
+    {
+      "id": "puducherry",
+      "state": "Puducherry",
+      "name": "Puducherry Heritage Festival",
+      "month": "February",
+      "description": "The Heritage Festival celebrates Puducherry's unique blend of Tamil and French cultural traditions through art, music and heritage events.",
+      "location": "Puducherry",
+      "image": "images/festivals/ut/puducherry.jpg"
+    }
+  ]
+}

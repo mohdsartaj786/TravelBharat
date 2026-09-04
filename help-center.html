@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find answers, FAQs, travel guidelines, and support for your journeys with TravelBharat Help Center.">
+    <title>Help Center — TravelBharat</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/help-center.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/ai-bot.css">
+</head>
+
+<body class="help-page">
+
+    <header class="navbar" id="masterNavbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🇮🇳</span>
+                <span class="logo-text">Travel<span>Bharat</span></span>
+            </a>
+
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="states.html" class="nav-link">States</a>
+                <a href="destinations.html" class="nav-link">Destinations</a>
+                <a href="food.html" class="nav-link">Food</a>
+                <a href="culture.html" class="nav-link">Culture</a>
+                <a href="festivals.html" class="nav-link">Festivals</a>
+                <a href="travel-guide.html" class="nav-link">Travel Guide</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="favourite.html" class="nav-icon" title="Favorites">♡</a>
+                <a href="login.html" class="login-btn">Login</a>
+                <button class="menu-btn" id="menuBtn" type="button" aria-label="Open Menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="states.html">States</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="food.html">Food</a>
+        <a href="culture.html">Culture</a>
+        <a href="festivals.html">Festivals</a>
+        <a href="travel-guide.html">Travel Guide</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="favourite.html">Favorites</a>
+        <a href="login.html">Login</a>
+    </div>
+
+    <main class="help-main">
+        <section class="help-hero">
+            <div class="help-hero-overlay"></div>
+            <div class="container">
+                <div class="help-hero-content">
+                    <span class="help-tag">SUPPORT & ASSISTANCE</span>
+                    <h1>How Can We <em>Help You?</em></h1>
+                    <p>Search guides, frequently asked questions, travel safety tips, and site navigation details.</p>
+                    <div class="help-search-box">
+                        <input type="text" id="faqSearchInput" placeholder="Search topics (e.g. state guides, favorites, best time to visit)..." autocomplete="off">
+                        <button type="button" id="faqSearchBtn">Search</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="help-categories">
+            <div class="container">
+                <div class="help-category-grid">
+                    <div class="help-cat-card">
+                        <div class="help-cat-icon">🗺️</div>
+                        <h3>Trip Planning</h3>
+                        <p>Best seasons, state itineraries, regional permits, and transportation options.</p>
+                    </div>
+
+                    <div class="help-cat-card">
+                        <div class="help-cat-icon">❤️</div>
+                        <h3>Saved Favorites</h3>
+                        <p>Learn how to save, organize, and manage your personalized bucket list.</p>
+                    </div>
+
+                    <div class="help-cat-card">
+                        <div class="help-cat-icon">🍛</div>
+                        <h3>Food & Culture</h3>
+                        <p>Dietary information, regional specialty guides, and local festival schedules.</p>
+                    </div>
+
+                    <div class="help-cat-card">
+                        <div class="help-cat-icon">🛡️</div>
+                        <h3>Travel Advisory</h3>
+                        <p>Emergency helplines, weather updates, cultural etiquette, and packing checklists.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="help-faq-section">
+            <div class="container">
+                <div class="faq-header">
+                    <span class="help-tag">FREQUENTLY ASKED QUESTIONS</span>
+                    <h2>Common <em>Questions.</em></h2>
+                    <p>Quick answers to common questions about exploring India and using TravelBharat.</p>
+                </div>
+
+                <div class="faq-accordion" id="faqAccordion">
+                    <div class="faq-item">
+                        <button class="faq-question" type="button">
+                            <span>Is TravelBharat free to use for planning trips?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, TravelBharat is a completely free travel discovery and planning platform designed to help explorers discover the heritage, states, foods, and destinations of India.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" type="button">
+                            <span>How do I save my favorite destinations?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Click the heart icon (♥) on any state or destination card. Your saved places are securely stored in your browser's local storage and accessible on the Favourite page.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" type="button">
+                            <span>What is the best time of year to travel across India?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>October through March is generally the most pleasant time for North, Central, and South India. For high-altitude Himalayan regions like Ladakh and Spiti, May to September offers clear roads and optimal weather.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" type="button">
+                            <span>Do I need special permits to visit certain northeastern states?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, Indian citizens require an Inner Line Permit (ILP) for states like Arunachal Pradesh, Nagaland, Mizoram, and Manipur. Foreign tourists may require a Protected Area Permit (PAP) for specific border regions.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" type="button">
+                            <span>How can I submit feedback or suggest a hidden gem?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>You can use our Contact page form to send us a direct message or drop an email to hello@travelbharat.com with photos and descriptions of your favorite spots.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="help-emergency">
+            <div class="container">
+                <div class="emergency-box">
+                    <span class="help-tag">IMPORTANT TRAVEL NUMBERS</span>
+                    <h2>National Emergency Contacts</h2>
+                    <div class="emergency-grid">
+                        <div class="emergency-item">
+                            <strong>112</strong>
+                            <span>National Emergency Number</span>
+                        </div>
+                        <div class="emergency-item">
+                            <strong>1363</strong>
+                            <span>Tourist Helpline (24x7 Multi-lingual)</span>
+                        </div>
+                        <div class="emergency-item">
+                            <strong>139</strong>
+                            <span>Indian Railways Inquiry & Security</span>
+                        </div>
+                        <div class="emergency-item">
+                            <strong>102 / 108</strong>
+                            <span>Ambulance Services</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="help-cta">
+            <div class="container">
+                <div class="help-cta-content">
+                    <span class="help-tag">STILL NEED HELP?</span>
+                    <h2>Can't find what you're <em>looking for?</em></h2>
+                    <p>Our team is always here to assist with your travel questions and feedback.</p>
+                    <a href="contact.html" class="help-cta-btn">Contact Us Directly →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">🇮🇳</span>
+                    <span class="logo-text">Travel<span>Bharat</span></span>
+                </a>
+                <p>Explore India state by state and discover destinations, local foods, cultural heritage, and living traditions.</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Explore</h4>
+                <a href="states.html">States</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="food.html">Food</a>
+                <a href="culture.html">Culture</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>Travel</h4>
+                <a href="travel-guide.html">Travel Guide</a>
+                <a href="festivals.html">Festivals</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="favourite.html">Favorites</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>Support</h4>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="help-center.html">Help Center</a>
+                <a href="privacy-policy.html">Privacy Policy</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2026 TravelBharat. Made with ❤️ for India.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/help-center.js"></script>
+    <script src="js/ai-bot.js"></script>
+</body>
+</html>

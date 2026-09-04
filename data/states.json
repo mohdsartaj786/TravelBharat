@@ -1,0 +1,258 @@
+{
+  "states": [
+    {
+      "id": "andhra-pradesh",
+      "name": "Andhra Pradesh",
+      "capital": "Amaravati",
+      "description": "Known for beautiful beaches, temples, rich culture and spicy cuisine.",
+      "image": "images/states/andhra-pradesh.jpg"
+    },
+    {
+      "id": "arunachal-pradesh",
+      "name": "Arunachal Pradesh",
+      "capital": "Itanagar",
+      "description": "A scenic Himalayan state famous for mountains, monasteries and natural beauty.",
+      "image": "images/states/arunachal-pradesh.jpg"
+    },
+    {
+      "id": "assam",
+      "name": "Assam",
+      "capital": "Dispur",
+      "description": "Famous for tea gardens, the Brahmaputra River and Kaziranga National Park.",
+      "image": "images/states/assam.jpg"
+    },
+    {
+      "id": "bihar",
+      "name": "Bihar",
+      "capital": "Patna",
+      "description": "A historically important state associated with Buddhism, Nalanda and ancient India.",
+      "image": "images/states/bihar.jpg"
+    },
+    {
+      "id": "chhattisgarh",
+      "name": "Chhattisgarh",
+      "capital": "Raipur",
+      "description": "Known for waterfalls, forests, tribal culture and ancient temples.",
+      "image": "images/states/chhattisgarh.jpg"
+    },
+    {
+      "id": "goa",
+      "name": "Goa",
+      "capital": "Panaji",
+      "description": "A popular coastal destination famous for beaches, Portuguese heritage and nightlife.",
+      "image": "images/states/goa.jpg"
+    },
+    {
+      "id": "gujarat",
+      "name": "Gujarat",
+      "capital": "Gandhinagar",
+      "description": "Famous for Rann of Kutch, heritage sites, temples and vibrant Gujarati culture.",
+      "image": "images/states/gujarat.jpg"
+    },
+    {
+      "id": "haryana",
+      "name": "Haryana",
+      "capital": "Chandigarh",
+      "description": "Known for its historical sites, agricultural heritage and proximity to Delhi.",
+      "image": "images/states/haryana.jpg"
+    },
+    {
+      "id": "himachal-pradesh",
+      "name": "Himachal Pradesh",
+      "capital": "Shimla",
+      "description": "A Himalayan state famous for hill stations, valleys, snow and adventure activities.",
+      "image": "images/states/himachal-pradesh.jpg"
+    },
+    {
+      "id": "jharkhand",
+      "name": "Jharkhand",
+      "capital": "Ranchi",
+      "description": "Known for waterfalls, forests, wildlife and rich tribal traditions.",
+      "image": "images/states/jharkhand.jpg"
+    },
+    {
+      "id": "karnataka",
+      "name": "Karnataka",
+      "capital": "Bengaluru",
+      "description": "A diverse state known for technology, heritage monuments, beaches and wildlife.",
+      "image": "images/states/karnataka.jpg"
+    },
+    {
+      "id": "kerala",
+      "name": "Kerala",
+      "capital": "Thiruvananthapuram",
+      "description": "Famous for backwaters, beaches, hill stations, Ayurveda and lush landscapes.",
+      "image": "images/states/kerala.jpg"
+    },
+    {
+      "id": "madhya-pradesh",
+      "name": "Madhya Pradesh",
+      "capital": "Bhopal",
+      "description": "Known for ancient temples, wildlife sanctuaries, forts and historical monuments.",
+      "image": "images/states/madhya-pradesh.jpg"
+    },
+    {
+      "id": "maharashtra",
+      "name": "Maharashtra",
+      "capital": "Mumbai",
+      "description": "Famous for Mumbai, forts, caves, beaches and rich Marathi culture.",
+      "image": "images/states/maharashtra.jpg"
+    },
+    {
+      "id": "manipur",
+      "name": "Manipur",
+      "capital": "Imphal",
+      "description": "Known for scenic landscapes, Loktak Lake, traditional arts and vibrant culture.",
+      "image": "images/states/manipur.jpg"
+    },
+    {
+      "id": "meghalaya",
+      "name": "Meghalaya",
+      "capital": "Shillong",
+      "description": "Famous for waterfalls, living root bridges, caves and beautiful green hills.",
+      "image": "images/states/meghalaya.jpg"
+    },
+    {
+      "id": "mizoram",
+      "name": "Mizoram",
+      "capital": "Aizawl",
+      "description": "A beautiful hill state known for forests, mountains and unique tribal traditions.",
+      "image": "images/states/mizoram.jpg"
+    },
+    {
+      "id": "nagaland",
+      "name": "Nagaland",
+      "capital": "Kohima",
+      "description": "Known for colorful tribal festivals, mountain landscapes and rich indigenous culture.",
+      "image": "images/states/nagaland.jpg"
+    },
+    {
+      "id": "odisha",
+      "name": "Odisha",
+      "capital": "Bhubaneswar",
+      "description": "Famous for Jagannath Temple, Konark Sun Temple, beaches and classical dance.",
+      "image": "images/states/odisha.jpg"
+    },
+    {
+      "id": "punjab",
+      "name": "Punjab",
+      "capital": "Chandigarh",
+      "description": "Known for the Golden Temple, vibrant culture, agriculture and Punjabi cuisine.",
+      "image": "images/states/punjab.jpg"
+    },
+    {
+      "id": "rajasthan",
+      "name": "Rajasthan",
+      "capital": "Jaipur",
+      "description": "Famous for royal palaces, forts, deserts, colorful traditions and heritage cities.",
+      "image": "images/states/rajasthan.jpg"
+    },
+    {
+      "id": "sikkim",
+      "name": "Sikkim",
+      "capital": "Gangtok",
+      "description": "A Himalayan state known for monasteries, mountain views and peaceful landscapes.",
+      "image": "images/states/sikkim.jpg"
+    },
+    {
+      "id": "tamil-nadu",
+      "name": "Tamil Nadu",
+      "capital": "Chennai",
+      "description": "Famous for ancient temples, classical culture, beaches and South Indian cuisine.",
+      "image": "images/states/tamil-nadu.jpg"
+    },
+    {
+      "id": "telangana",
+      "name": "Telangana",
+      "capital": "Hyderabad",
+      "description": "Known for Hyderabad's heritage, historic monuments, cuisine and modern technology.",
+      "image": "images/states/telangana.jpg"
+    },
+    {
+      "id": "tripura",
+      "name": "Tripura",
+      "capital": "Agartala",
+      "description": "Known for palaces, temples, forests and rich cultural traditions.",
+      "image": "images/states/tripura.jpg"
+    },
+    {
+      "id": "uttar-pradesh",
+      "name": "Uttar Pradesh",
+      "capital": "Lucknow",
+      "description": "Home to the Taj Mahal, Varanasi, Ayodhya, Prayagraj and a rich cultural heritage.",
+      "image": "images/states/uttar-pradesh.jpg"
+    },
+    {
+      "id": "uttarakhand",
+      "name": "Uttarakhand",
+      "capital": "Dehradun",
+      "description": "Famous for the Himalayas, pilgrimage sites, rivers, forests and hill stations.",
+      "image": "images/states/uttarakhand.jpg"
+    },
+    {
+      "id": "west-bengal",
+      "name": "West Bengal",
+      "capital": "Kolkata",
+      "description": "Known for Kolkata, Darjeeling, Sundarbans, literature, art and Bengali cuisine.",
+      "image": "images/states/west-bengal.jpg"
+    }
+  ],
+  "unionTerritories": [
+    {
+      "id": "andaman-nicobar",
+      "name": "Andaman and Nicobar Islands",
+      "capital": "Port Blair",
+      "description": "A tropical paradise famous for beaches, coral reefs, marine life and water sports.",
+      "image": "images/states/andaman-nicobar.jpg"
+    },
+    {
+      "id": "chandigarh",
+      "name": "Chandigarh",
+      "capital": "Chandigarh",
+      "description": "A planned modern city known for architecture, gardens and urban design.",
+      "image": "images/states/chandigarh.jpg"
+    },
+    {
+      "id": "dadra-nagar-haveli-daman-diu",
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "capital": "Daman",
+      "description": "Known for beaches, Portuguese heritage, forests and peaceful coastal destinations.",
+      "image": "images/states/dadra-nagar-haveli-daman-diu.jpg"
+    },
+    {
+      "id": "delhi",
+      "name": "Delhi",
+      "capital": "New Delhi",
+      "description": "India's capital territory, famous for historic monuments, museums and vibrant markets.",
+      "image": "images/states/delhi.jpg"
+    },
+    {
+      "id": "jammu-kashmir",
+      "name": "Jammu and Kashmir",
+      "capital": "Srinagar",
+      "description": "Famous for mountains, lakes, valleys, gardens and breathtaking Himalayan scenery.",
+      "image": "images/states/jammu-kashmir.jpg"
+    },
+    {
+      "id": "ladakh",
+      "name": "Ladakh",
+      "capital": "Leh",
+      "description": "A high-altitude destination known for rugged mountains, monasteries and dramatic landscapes.",
+      "image": "images/states/ladakh.jpg"
+    },
+    {
+      "id": "lakshadweep",
+      "name": "Lakshadweep",
+      "capital": "Kavaratti",
+      "description": "A group of tropical islands famous for coral reefs, lagoons and pristine beaches.",
+      "image": "images/states/lakshadweep.jpg"
+    },
+    {
+      "id": "puducherry",
+      "name": "Puducherry",
+      "capital": "Puducherry",
+      "description": "Known for French colonial architecture, beaches, cafés and peaceful coastal streets.",
+      "image": "images/states/puducherry.jpg"
+    }
+  ]
+}

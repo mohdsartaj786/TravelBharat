@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Profile | TravelBharat</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/ai-bot.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🇮🇳</span>
+                <span>Travel<span>Bharat</span></span>
+            </a>
+
+            <nav class="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="states.html">States</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="food.html">Food</a>
+                <a href="culture.html">Culture</a>
+                <a href="festivals.html">Festivals</a>
+                <a href="travel-guide.html">Travel Guide</a>
+                <a href="about.html">About</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="favorites.html" class="nav-icon" title="Favorites">♡</a>
+                <a href="profile.html" class="login-btn user-login">Profile</a>
+                <button class="menu-btn" id="menuBtn" type="button">☰</button>
+            </div>
+
+        </div>
+    </header>
+
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="states.html">States</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="food.html">Food</a>
+        <a href="culture.html">Culture</a>
+        <a href="festivals.html">Festivals</a>
+        <a href="travel-guide.html">Travel Guide</a>
+        <a href="favorites.html">Favorites</a>
+        <a href="profile.html">Profile</a>
+    </div>
+
+
+    <main class="profile-page">
+
+        <section class="profile-hero">
+            <div class="container">
+
+                <div class="profile-heading">
+                    <div class="profile-icon">👤</div>
+
+                    <div>
+                        <h1>My Profile</h1>
+                        <p>Manage your TravelBharat account</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="profile-section">
+            <div class="container">
+
+                <div class="profile-grid">
+
+                    <div class="profile-card profile-main-card">
+
+                        <div class="profile-avatar" id="profileAvatar">
+                            U
+                        </div>
+
+                        <h2 id="profileName">User</h2>
+
+                        <p id="profileEmail">
+                            user@example.com
+                        </p>
+
+                        <span class="member-badge">
+                            🇮🇳 TravelBharat Member
+                        </span>
+
+                        <button
+                            type="button"
+                            class="logout-btn"
+                            id="logoutBtn">
+                            Logout
+                        </button>
+
+                    </div>
+
+
+                    <div class="profile-card">
+
+                        <div class="card-title">
+                            <span>👤</span>
+                            <h2>Account Information</h2>
+                        </div>
+
+                        <div class="profile-info">
+
+                            <div class="info-item">
+                                <span class="info-label">
+                                    Full Name
+                                </span>
+
+                                <strong id="infoName">
+                                    -
+                                </strong>
+                            </div>
+
+                            <div class="info-item">
+                                <span class="info-label">
+                                    Email Address
+                                </span>
+
+                                <strong id="infoEmail">
+                                    -
+                                </strong>
+                            </div>
+
+                            <div class="info-item">
+                                <span class="info-label">
+                                    Account Status
+                                </span>
+
+                                <strong class="status-active">
+                                    Active
+                                </strong>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="profile-card">
+
+                        <div class="card-title">
+                            <span>❤️</span>
+                            <h2>Quick Access</h2>
+                        </div>
+
+                        <div class="quick-links">
+
+                            <a href="favorites.html">
+                                <span>♡</span>
+
+                                <div>
+                                    <strong>My Favorites</strong>
+                                    <small>
+                                        View your saved places
+                                    </small>
+                                </div>
+                            </a>
+
+
+                            <a href="destinations.html">
+                                <span>📍</span>
+
+                                <div>
+                                    <strong>Explore Destinations</strong>
+                                    <small>
+                                        Discover amazing places
+                                    </small>
+                                </div>
+                            </a>
+
+
+                            <a href="travel-guide.html">
+                                <span>🧳</span>
+
+                                <div>
+                                    <strong>Travel Guide</strong>
+                                    <small>
+                                        Plan your next journey
+                                    </small>
+                                </div>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-content">
+
+                <div class="footer-brand">
+
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">🇮🇳</span>
+                        <span>Travel<span>Bharat</span></span>
+                    </a>
+
+                    <p>
+                        Discover the beauty, culture, food and
+                        traditions of incredible India.
+                    </p>
+
+                </div>
+
+
+                <div class="footer-links">
+
+                    <h3>Explore</h3>
+
+                    <a href="states.html">States</a>
+                    <a href="destinations.html">Destinations</a>
+                    <a href="food.html">Food</a>
+                    <a href="culture.html">Culture</a>
+
+                </div>
+
+
+                <div class="footer-links">
+
+                    <h3>Travel</h3>
+
+                    <a href="festivals.html">Festivals</a>
+                    <a href="travel-guide.html">Travel Guide</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="about.html">About</a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 TravelBharat. Made with ❤️ for India.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/navbar.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="js/ai-bot.js"></script>
+
+</body>
+</html>

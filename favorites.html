@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View your favorite destinations on TravelBharat">
+    <title>My Favorites | TravelBharat</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/favourite.css">
+    <link rel="stylesheet" href="css/ai-bot.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container navbar-container">
+            <a href="index.html" class="logo">
+                <span>Travel</span>Bharat
+            </a>
+            <nav class="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="states.html">States</a>
+                <a href="culture.html">Culture</a>
+                <a href="food.html">Food</a>
+                <a href="festivals.html">Festivals</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="travel-guide.html">Travel Guide</a>
+                <a href="favorites.html" class="active">Favorites</a>
+            </nav>
+            <div class="navbar-actions">
+                <a href="profile.html" class="profile-btn">Profile</a>
+            </div>
+            <button type="button" class="menu-toggle" id="menuToggle" aria-label="Open Menu">☰</button>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="states.html">States</a>
+        <a href="culture.html">Culture</a>
+        <a href="food.html">Food</a>
+        <a href="festivals.html">Festivals</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="travel-guide.html">Travel Guide</a>
+        <a href="favorites.html" class="active">Favorites</a>
+        <a href="profile.html">Profile</a>
+    </div>
+
+    <main>
+        <section class="favourite-hero">
+            <div class="container">
+                <span class="section-label">Your Collection</span>
+                <h1>My Favorite Places</h1>
+                <p>Save your favorite destinations and explore them anytime.</p>
+                <div class="favourite-count">
+                    <strong id="favouriteCount">0</strong>
+                    <span>Saved Places</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="favourite-section" id="favouriteSection">
+            <div class="container">
+                <div class="favourite-grid" id="favouriteGrid"></div>
+            </div>
+        </section>
+
+        <section class="favourite-empty" id="favouriteEmpty" style="display: none;">
+            <div class="container">
+                <div class="empty-content">
+                    <div class="empty-icon">♡</div>
+                    <h2>No Favorite Places Yet</h2>
+                    <p>You haven't saved any destinations yet. Start exploring India and save the places you want to visit.</p>
+                    <a href="destinations.html" class="explore-btn">Explore Destinations</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span>Travel</span>Bharat
+                    </a>
+                    <p>Discover the beauty, culture, food and heritage of incredible India.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Explore</h3>
+                        <a href="destinations.html">Destinations</a>
+                        <a href="states.html">States</a>
+                        <a href="culture.html">Culture</a>
+                        <a href="food.html">Food</a>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Travel</h3>
+                        <a href="travel-guide.html">Travel Guide</a>
+                        <a href="festivals.html">Festivals</a>
+                        <a href="gallery.html">Gallery</a>
+                        <a href="favorites.html">Favorites</a>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Company</h3>
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                        <a href="terms.html">Terms</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 TravelBharat. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/favourites.js"></script>
+    <script src="js/ai-bot.js"></script>
+</body>
+</html>

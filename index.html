@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TravelBharat - Explore India state by state. Discover destinations, culture, food, festivals and travel guides.">
+    <meta name="keywords" content="India Travel, Indian States, Tourism, TravelBharat, India Destinations">
+    <title>TravelBharat | Explore India State by State</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/ai-bot.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🇮🇳</span>
+                <span>Travel<span>Bharat</span></span>
+            </a>
+            <nav class="nav-menu">
+                <a href="index.html" class="active">Home</a>
+                <a href="states.html">States</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="food.html">Food</a>
+                <a href="culture.html">Culture</a>
+                <a href="festivals.html">Festivals</a>
+                <a href="travel-guide.html">Travel Guide</a>
+                <a href="about.html">About</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="favorites.html" class="nav-icon" title="Favorites">♡</a>
+                <a href="login.html" class="login-btn">Login</a>
+                <button class="menu-btn" id="menuBtn">☰</button>
+            </div>
+        </div>
+    </header>
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="states.html">States</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="food.html">Food</a>
+        <a href="culture.html">Culture</a>
+        <a href="festivals.html">Festivals</a>
+        <a href="travel-guide.html">Travel Guide</a>
+        <a href="favorites.html">Favorites</a>
+        <a href="login.html">Login</a>
+    </div>
+    <main>
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <span class="hero-badge">🇮🇳 Discover Incredible India</span>
+                <h1>Explore India, <span>State by State</span></h1>
+                <p>Discover the beauty, culture, food, history and unforgettable destinations of India.</p>
+                <div class="hero-search">
+                    <div class="search-box">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" id="destinationSearch" placeholder="Search destinations, states or cities...">
+                        <button id="searchBtn">Explore</button>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <strong>28</strong>
+                        <span>States</span>
+                    </div>
+                    <div class="stat">
+                        <strong>8</strong>
+                        <span>UTs</span>
+                    </div>
+                    <div class="stat">
+                        <strong>1000+</strong>
+                        <span>Places</span>
+                    </div>
+                    <div class="stat">
+                        <strong>1</strong>
+                        <span>Incredible India</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section states-section">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-tag">EXPLORE INDIA</span>
+                    <h2>Explore India by State</h2>
+                    <p>Every state has its own story, culture, food and unforgettable experiences.</p>
+                </div>
+                <div class="state-grid">
+                    <a href="states/uttar-pradesh.html" class="state-card">
+                        <div class="state-image">
+                            <img src="images/states/uttar-pradesh.jpg" alt="Uttar Pradesh" onerror="this.style.display='none'">
+                        </div>
+                        <div class="state-info">
+                            <h3>Uttar Pradesh</h3>
+                            <p>Taj Mahal • Varanasi • Ayodhya</p>
+                            <span>Explore →</span>
+                        </div>
+                    </a>
+                    <a href="states/rajasthan.html" class="state-card">
+                        <div class="state-image">
+                            <img src="images/states/rajasthan.jpg" alt="Rajasthan" onerror="this.style.display='none'">
+                        </div>
+                        <div class="state-info">
+                            <h3>Rajasthan</h3>
+                            <p>Jaipur • Udaipur • Jaisalmer</p>
+                            <span>Explore →</span>
+                        </div>
+                    </a>
+                    <a href="states/kerala.html" class="state-card">
+                        <div class="state-image">
+                            <img src="images/states/kerala.jpg" alt="Kerala" onerror="this.style.display='none'">
+                        </div>
+                        <div class="state-info">
+                            <h3>Kerala</h3>
+                            <p>Backwaters • Munnar • Alleppey</p>
+                            <span>Explore →</span>
+                        </div>
+                    </a>
+                    <a href="states/goa.html" class="state-card">
+                        <div class="state-image">
+                            <img src="images/states/goa.jpg" alt="Goa" onerror="this.style.display='none'">
+                        </div>
+                        <div class="state-info">
+                            <h3>Goa</h3>
+                            <p>Beaches • Forts • Nightlife</p>
+                            <span>Explore →</span>
+                        </div>
+                    </a>
+                    <a href="states/himachal-pradesh.html" class="state-card">
+                        <div class="state-image">
+                            <img src="images/states/himachal-pradesh.jpg" alt="Himachal Pradesh" onerror="this.style.display='none'">
+                        </div>
+                        <div class="state-info">
+                            <h3>Himachal Pradesh</h3>
+                            <p>Manali • Shimla • Spiti</p>
+                            <span>Explore →</span>
+                        </div>
+                    </a>
+                    <a href="states/maharashtra.html" class="state-card">
+                        <div class="state-image">
+                            <img src="images/states/maharashtra.jpg" alt="Maharashtra" onerror="this.style.display='none'">
+                        </div>
+                        <div class="state-info">
+                            <h3>Maharashtra</h3>
+                            <p>Mumbai • Pune • Lonavala</p>
+                            <span>Explore →</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="center-btn">
+                    <a href="states.html" class="primary-btn">View All States →</a>
+                </div>
+            </div>
+        </section>
+        <section class="section destinations-section">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-tag">MUST VISIT</span>
+                    <h2>Popular Destinations</h2>
+                    <p>Places that should be on every traveller's India bucket list.</p>
+                </div>
+                <div class="destination-grid">
+                    <a href="destinations/taj-mahal.html" class="destination-card large">
+                        <img src="images/destinations/taj-mahal.jpg" alt="Taj Mahal">
+                        <div class="destination-overlay">
+                            <span>Agra, Uttar Pradesh</span>
+                            <h3>Taj Mahal</h3>
+                            <p>The symbol of eternal love.</p>
+                        </div>
+                    </a>
+                    <a href="destinations/varanasi.html" class="destination-card">
+                        <img src="images/destinations/varanasi.jpg" alt="Varanasi">
+                        <div class="destination-overlay">
+                            <span>Uttar Pradesh</span>
+                            <h3>Varanasi</h3>
+                        </div>
+                    </a>
+                    <a href="destinations/jaipur.html" class="destination-card">
+                        <img src="images/destinations/jaipur.jpg" alt="Jaipur">
+                        <div class="destination-overlay">
+                            <span>Rajasthan</span>
+                            <h3>Jaipur</h3>
+                        </div>
+                    </a>
+                    <a href="destinations/manali.html" class="destination-card">
+                        <img src="images/destinations/manali.jpg" alt="Manali">
+                        <div class="destination-overlay">
+                            <span>Himachal Pradesh</span>
+                            <h3>Manali</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section experience-section">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-tag">EXPERIENCE INDIA</span>
+                    <h2>More Than Just Travel</h2>
+                    <p>India is a journey through colours, flavours, traditions and stories.</p>
+                </div>
+                <div class="experience-grid">
+                    <a href="food.html" class="experience-card">
+                        <div class="experience-icon">🍛</div>
+                        <h3>Indian Food</h3>
+                        <p>Taste the unique flavours and traditional cuisines of every region.</p>
+                        <span>Explore Food →</span>
+                    </a>
+                    <a href="culture.html" class="experience-card">
+                        <div class="experience-icon">🪔</div>
+                        <h3>Culture & Heritage</h3>
+                        <p>Discover India's art, traditions, architecture and heritage.</p>
+                        <span>Explore Culture →</span>
+                    </a>
+                    <a href="festivals.html" class="experience-card">
+                        <div class="experience-icon">🎉</div>
+                        <h3>Festivals</h3>
+                        <p>Experience the colourful festivals celebrated across India.</p>
+                        <span>Explore Festivals →</span>
+                    </a>
+                    <a href="travel-guide.html" class="experience-card">
+                        <div class="experience-icon">🧭</div>
+                        <h3>Travel Guide</h3>
+                        <p>Get useful travel tips, routes, budgets and planning information.</p>
+                        <span>Travel Guide →</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section why-section">
+            <div class="container why-container">
+                <div class="why-content">
+                    <span class="section-tag">WHY TRAVELBHARAT</span>
+                    <h2>Your Gateway to Incredible India</h2>
+                    <p>TravelBharat helps you discover India beyond the usual tourist spots. Explore every state through its destinations, people, food, culture and traditions.</p>
+                    <div class="why-list">
+                        <div class="why-item">
+                            <span>✓</span>
+                            <div>
+                                <h4>State-wise Exploration</h4>
+                                <p>Explore India in an organised state-by-state experience.</p>
+                            </div>
+                        </div>
+                        <div class="why-item">
+                            <span>✓</span>
+                            <div>
+                                <h4>Discover Hidden Places</h4>
+                                <p>Find beautiful destinations beyond the popular tourist spots.</p>
+                            </div>
+                        </div>
+                        <div class="why-item">
+                            <span>✓</span>
+                            <div>
+                                <h4>Complete Travel Information</h4>
+                                <p>Get destinations, food, culture, festivals and travel tips.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="why-visual">
+                    <div class="india-card">
+                        <div class="india-map">
+                            <img src="images/map/india-map.jpg" alt="India Map">
+                        </div>
+                        <h3>Incredible India</h3>
+                        <p>28 States • 8 Union Territories</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="quote-section">
+            <div class="container">
+                <div class="quote-content">
+                    <span>✦</span>
+                    <h2>“India is not a place you visit. It is a story you experience.”</h2>
+                    <p>Start your journey today.</p>
+                    <a href="states.html" class="primary-btn">Start Exploring →</a>
+                </div>
+            </div>
+        </section>
+        <section class="newsletter">
+            <div class="container newsletter-container">
+                <div>
+                    <span class="section-tag">STAY INSPIRED</span>
+                    <h2>Get India Travel Inspiration</h2>
+                    <p>Receive travel ideas, hidden destinations and India travel stories in your inbox.</p>
+                </div>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" id="email" placeholder="Enter your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">🇮🇳</span>
+                    <span>Travel<span>Bharat</span></span>
+                </a>
+                <p>Explore India state by state and discover its incredible destinations, food, culture and traditions.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                    <a href="#" aria-label="Facebook">Facebook</a>
+                    <a href="#" aria-label="YouTube">YouTube</a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h4>Explore</h4>
+                <a href="states.html">States</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="food.html">Food</a>
+                <a href="culture.html">Culture</a>
+                <a href="festivals.html">Festivals</a>
+            </div>
+            <div class="footer-column">
+                <h4>Travel</h4>
+                <a href="travel-guide.html">Travel Guide</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="favorites.html">Favorites</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <a href="login.html">Login</a>
+                <a href="register.html">Register</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2026 TravelBharat. Made with ❤️ for India.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/ai-bot.js"></script>
+</body>
+</html>

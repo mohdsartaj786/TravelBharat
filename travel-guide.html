@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Travel Guide | TravelBharat</title>
+
+    <meta
+        name="description"
+        content="Complete India travel guide with tips, travel essentials, safety, budget planning and more."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/travel-guide.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/ai-bot.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="container nav-container">
+
+        <a href="index.html" class="logo">
+            <span class="logo-icon">🇮🇳</span>
+            <span>Travel<span>Bharat</span></span>
+        </a>
+
+        <nav class="nav-menu" id="navMenu">
+            <a href="index.html">Home</a>
+            <a href="states.html">States</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="food.html">Food</a>
+            <a href="culture.html">Culture</a>
+            <a href="festivals.html">Festivals</a>
+            <a href="travel-guide.html" class="active">Travel Guide</a>
+            <a href="favorites.html">Favorites</a>
+            <a href="login.html" class="login-btn">Login</a>
+        </nav>
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Toggle navigation"
+            type="button"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </div>
+</header>
+
+
+<main>
+
+    <!-- Hero -->
+    <section class="guide-hero">
+        <div class="container guide-hero-content">
+
+            <div class="guide-hero-text">
+
+                <span class="section-badge">
+                    TRAVEL SMART
+                </span>
+
+                <h1>
+                    Your Complete
+                    <span>India Travel Guide</span>
+                </h1>
+
+                <p>
+                    Everything you need to know before exploring
+                    the incredible diversity, culture and beauty of India.
+                </p>
+
+                <div class="guide-hero-buttons">
+
+                    <a href="#guides" class="btn btn-primary">
+                        Explore Guides
+                    </a>
+
+                    <a href="states.html" class="btn btn-outline">
+                        Explore States
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="guide-hero-image">
+
+                <img
+                    src="images/travel-guide/travel-guide-hero.jpg"
+                    alt="India Travel Guide"
+                >
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Introduction -->
+    <section class="guide-intro-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="section-badge">
+                    TRAVEL INDIA
+                </span>
+
+                <h2>
+                    Plan Your Journey
+                    <span>With Confidence</span>
+                </h2>
+
+                <p>
+                    From choosing the best time to visit to travelling
+                    responsibly, get practical information for your
+                    Indian adventure.
+                </p>
+
+            </div>
+
+
+            <div class="guide-stats">
+
+                <div class="guide-stat">
+                    <strong>28+</strong>
+                    <span>States</span>
+                </div>
+
+                <div class="guide-stat">
+                    <strong>8+</strong>
+                    <span>Travel Regions</span>
+                </div>
+
+                <div class="guide-stat">
+                    <strong>100+</strong>
+                    <span>Destinations</span>
+                </div>
+
+                <div class="guide-stat">
+                    <strong>∞</strong>
+                    <span>Experiences</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Travel Essentials -->
+    <section class="guide-section" id="guides">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="section-badge">
+                    TRAVEL ESSENTIALS
+                </span>
+
+                <h2>
+                    Everything You
+                    <span>Need to Know</span>
+                </h2>
+
+                <p>
+                    Useful travel guides to help you prepare,
+                    plan and enjoy your journey across India.
+                </p>
+
+            </div>
+
+
+            <div class="guide-card-grid" id="guideCardGrid">
+
+                <p class="guide-loading">
+                    Loading guides...
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Travel Styles -->
+    <section class="travel-styles-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="section-badge">
+                    TRAVEL YOUR WAY
+                </span>
+
+                <h2>
+                    Choose Your
+                    <span>Travel Style</span>
+                </h2>
+
+                <p>
+                    Find inspiration based on how you want to
+                    experience India.
+                </p>
+
+            </div>
+
+
+            <div class="style-grid">
+
+                <a href="solo-travel.html" class="style-card">
+
+                    <div class="style-card-image">
+                        <img
+                            src="images/travel-guide/solo-travel.jpg"
+                            alt="Solo Travel"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <div class="style-card-content">
+                        <span>01</span>
+                        <h3>Solo Travel</h3>
+
+                        <p>
+                            Discover India at your own pace
+                            and create your own adventure.
+                        </p>
+
+                        <strong>
+                            Explore →
+                        </strong>
+                    </div>
+
+                </a>
+
+
+                <a href="family-travel.html" class="style-card">
+
+                    <div class="style-card-image">
+                        <img
+                            src="images/travel-guide/family-travel.jpg"
+                            alt="Family Trips"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <div class="style-card-content">
+                        <span>02</span>
+                        <h3>Family Trips</h3>
+
+                        <p>
+                            Enjoy comfortable and memorable
+                            experiences with your family.
+                        </p>
+
+                        <strong>
+                            Explore →
+                        </strong>
+                    </div>
+
+                </a>
+
+
+                <a href="couple-travel.html" class="style-card">
+
+                    <div class="style-card-image">
+                        <img
+                            src="images/travel-guide/couple-travel.jpg"
+                            alt="Couple Getaways"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <div class="style-card-content">
+                        <span>03</span>
+                        <h3>Couple Getaways</h3>
+
+                        <p>
+                            Explore romantic destinations
+                            and unforgettable experiences.
+                        </p>
+
+                        <strong>
+                            Explore →
+                        </strong>
+                    </div>
+
+                </a>
+
+
+                <a href="adventure-travel.html" class="style-card">
+
+                    <div class="style-card-image">
+                        <img
+                            src="images/travel-guide/adventure.jpg"
+                            alt="Adventure Travel"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <div class="style-card-content">
+                        <span>04</span>
+                        <h3>Adventure</h3>
+
+                        <p>
+                            Experience trekking, rafting,
+                            camping and exciting adventures.
+                        </p>
+
+                        <strong>
+                            Explore →
+                        </strong>
+                    </div>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Regional Guides -->
+    <section class="regions-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="section-badge">
+                    EXPLORE INDIA
+                </span>
+
+                <h2>
+                    Regional
+                    <span>Travel Guides</span>
+                </h2>
+
+                <p>
+                    Discover different regions of India and
+                    what makes each one special.
+                </p>
+
+            </div>
+
+
+            <div class="region-grid">
+
+                <a href="states.html" class="region-item">
+
+                    <span>01</span>
+
+                    <div>
+                        <h3>North India</h3>
+                        <p>
+                            Mountains, heritage and royal cities
+                        </p>
+                    </div>
+
+                    <strong>→</strong>
+
+                </a>
+
+
+                <a href="states.html" class="region-item">
+
+                    <span>02</span>
+
+                    <div>
+                        <h3>South India</h3>
+                        <p>
+                            Temples, beaches and backwaters
+                        </p>
+                    </div>
+
+                    <strong>→</strong>
+
+                </a>
+
+
+                <a href="states.html" class="region-item">
+
+                    <span>03</span>
+
+                    <div>
+                        <h3>West India</h3>
+                        <p>
+                            Deserts, forts and coastal beauty
+                        </p>
+                    </div>
+
+                    <strong>→</strong>
+
+                </a>
+
+
+                <a href="states.html" class="region-item">
+
+                    <span>04</span>
+
+                    <div>
+                        <h3>East India</h3>
+                        <p>
+                            Culture, nature and traditions
+                        </p>
+                    </div>
+
+                    <strong>→</strong>
+
+                </a>
+
+
+                <a href="states.html" class="region-item">
+
+                    <span>05</span>
+
+                    <div>
+                        <h3>North East India</h3>
+                        <p>
+                            Hills, tribes and untouched landscapes
+                        </p>
+                    </div>
+
+                    <strong>→</strong>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Quick Tips -->
+    <section class="quick-tips-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="section-badge">
+                    QUICK TIPS
+                </span>
+
+                <h2>
+                    Travel
+                    <span>Better</span>
+                </h2>
+
+            </div>
+
+
+            <div class="quick-tips-grid">
+
+                <div class="quick-tip">
+
+                    <span>📱</span>
+
+                    <h3>
+                        Keep Digital Copies
+                    </h3>
+
+                    <p>
+                        Keep digital copies of your passport,
+                        tickets and important documents.
+                    </p>
+
+                </div>
+
+
+                <div class="quick-tip">
+
+                    <span>💧</span>
+
+                    <h3>
+                        Stay Hydrated
+                    </h3>
+
+                    <p>
+                        Carry drinking water, especially when
+                        travelling during hot weather.
+                    </p>
+
+                </div>
+
+
+                <div class="quick-tip">
+
+                    <span>🗺️</span>
+
+                    <h3>
+                        Plan but Stay Flexible
+                    </h3>
+
+                    <p>
+                        Have a basic plan but leave room for
+                        unexpected discoveries.
+                    </p>
+
+                </div>
+
+
+                <div class="quick-tip">
+
+                    <span>🙏</span>
+
+                    <h3>
+                        Respect Local Culture
+                    </h3>
+
+                    <p>
+                        Respect local traditions, customs,
+                        people and sacred places.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CTA -->
+    <section class="guide-cta">
+
+        <div class="container">
+
+            <div class="guide-cta-content">
+
+                <div>
+
+                    <span class="section-badge">
+                        START EXPLORING
+                    </span>
+
+                    <h2>
+                        Ready to Discover
+                        <span>India?</span>
+                    </h2>
+
+                    <p>
+                        Explore India's states, destinations,
+                        food, festivals and culture.
+                    </p>
+
+                </div>
+
+                <a href="states.html" class="btn btn-primary">
+                    Explore India →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- Footer -->
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="logo">
+
+                    <span class="logo-icon">🇮🇳</span>
+
+                    <span>
+                        Travel<span>Bharat</span>
+                    </span>
+
+                </a>
+
+                <p>
+                    Discover the incredible beauty, culture,
+                    food and experiences of India.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Explore</h3>
+
+                <a href="states.html">States</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="food.html">Food</a>
+                <a href="culture.html">Culture</a>
+                <a href="festivals.html">Festivals</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Travel</h3>
+
+                <a href="travel-guide.html">
+                    Travel Guide
+                </a>
+
+                <a href="favorites.html">
+                    Favorites
+                </a>
+
+                <a href="gallery.html">
+                    Gallery
+                </a>
+
+                <a href="about.html">
+                    About Us
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Account</h3>
+
+                <a href="login.html">
+                    Login
+                </a>
+
+                <a href="register.html">
+                    Register
+                </a>
+
+                <a href="profile.html">
+                    Profile
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 TravelBharat. All rights reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="js/navbar.js"></script>
+<script src="js/travel-guide.js"></script>
+<script src="js/ai-bot.js"></script>
+
+</body>
+</html>
+

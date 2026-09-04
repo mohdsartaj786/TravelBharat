@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>404 | Page Not Found - TravelBharat</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+        rel="stylesheet">
+
+    <!-- Navbar CSS -->
+    <link rel="stylesheet" href="css/navbar.css">
+
+    <!-- 404 CSS -->
+    <link rel="stylesheet" href="css/404.css">
+</head>
+
+<body class="error-page">
+
+
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
+
+    <nav class="navbar">
+
+        <div class="container">
+
+            <a href="index.html" class="logo">
+
+                <span class="logo-mark">
+                    TB
+                </span>
+
+                <span class="logo-text">
+                    Travel<span>Bharat</span>
+                </span>
+
+            </a>
+
+
+            <div class="nav-links">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="state.html">
+                    States
+                </a>
+
+                <a href="destination.html">
+                    Destinations
+                </a>
+
+                <a href="travel-guide.html">
+                    Travel Guide
+                </a>
+
+                <a href="gallery.html">
+                    Gallery
+                </a>
+
+                <a href="food.html">
+                    Food
+                </a>
+
+                <a href="culture.html">
+                    Culture
+                </a>
+
+                <a href="favourite.html">
+                    Favourite
+                </a>
+
+            </div>
+
+
+            <div class="nav-right">
+
+                <a href="state.html" class="nav-btn">
+                    Explore India
+                </a>
+
+                <button
+                    class="menu-toggle"
+                    type="button"
+                    aria-label="Open Menu"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- =====================================================
+         404 CONTENT
+    ====================================================== -->
+
+    <main class="error-main">
+
+        <section class="error-section">
+
+            <!-- Decorative Elements -->
+
+            <div class="error-decoration error-decoration-one">
+                ✦
+            </div>
+
+            <div class="error-decoration error-decoration-two">
+                ✧
+            </div>
+
+            <div class="error-decoration error-decoration-three">
+                •
+            </div>
+
+
+            <div class="error-content">
+
+                <span class="error-tag">
+                    TRAVELBHARAT
+                </span>
+
+
+                <div class="error-number">
+                    4<span>0</span>4
+                </div>
+
+
+                <h1>
+                    Lost on the
+                    <em>journey?</em>
+                </h1>
+
+
+                <p>
+                    Looks like this destination doesn't exist.
+                    Don't worry — there are plenty of beautiful
+                    places waiting for you to explore.
+                </p>
+
+
+                <div class="error-buttons">
+
+                    <a
+                        href="index.html"
+                        class="error-primary-btn"
+                    >
+                        ← Back Home
+                    </a>
+
+
+                    <a
+                        href="state.html"
+                        class="error-secondary-btn"
+                    >
+                        Explore India
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bottom Destination Cards -->
+
+            <div class="error-destinations">
+
+                <a href="state.html" class="error-destination">
+
+                    <span>EXPLORE</span>
+
+                    <strong>
+                        States
+                    </strong>
+
+                </a>
+
+
+                <a
+                    href="destination.html"
+                    class="error-destination"
+                >
+
+                    <span>DISCOVER</span>
+
+                    <strong>
+                        Destinations
+                    </strong>
+
+                </a>
+
+
+                <a href="food.html" class="error-destination">
+
+                    <span>TASTE</span>
+
+                    <strong>
+                        Indian Food
+                    </strong>
+
+                </a>
+
+
+                <a href="culture.html" class="error-destination">
+
+                    <span>EXPERIENCE</span>
+
+                    <strong>
+                        Culture
+                    </strong>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="error-footer">
+
+        <p>
+            © 2026 TravelBharat — Explore India State by State.
+        </p>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         NAVBAR JS
+    ====================================================== -->
+
+    <script>
+
+        const menuToggle =
+            document.querySelector(".menu-toggle");
+
+        const navLinks =
+            document.querySelector(".nav-links");
+
+
+        if (menuToggle && navLinks) {
+
+            menuToggle.addEventListener("click", () => {
+
+                menuToggle.classList.toggle(
+                    "active-toggle"
+                );
+
+                navLinks.classList.toggle(
+                    "active-menu"
+                );
+
+            });
+
+
+            navLinks
+                .querySelectorAll("a")
+                .forEach(link => {
+
+                    link.addEventListener("click", () => {
+
+                        menuToggle.classList.remove(
+                            "active-toggle"
+                        );
+
+                        navLinks.classList.remove(
+                            "active-menu"
+                        );
+
+                    });
+
+                });
+
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,249 @@
+#tb-ai-toggle {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    width: 62px;
+    height: 62px;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ff671f, #046a38);
+    color: #fff;
+    font-size: 27px;
+    cursor: pointer;
+    z-index: 9999;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .25);
+    transition: .3s ease;
+}
+
+#tb-ai-toggle:hover {
+    transform: scale(1.08);
+}
+
+#tb-ai-chat {
+    position: fixed;
+    right: 24px;
+    bottom: 98px;
+    width: 370px;
+    height: 540px;
+    background: #fff;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, .25);
+    z-index: 9998;
+    display: none;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, .08);
+}
+
+#tb-ai-chat.active {
+    display: flex;
+    animation: tbAiOpen .25s ease;
+}
+
+@keyframes tbAiOpen {
+    from {
+        opacity: 0;
+        transform: translateY(20px) scale(.96);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.tb-ai-header {
+    padding: 17px 18px;
+    background: linear-gradient(135deg, #046a38, #073d29);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tb-ai-brand {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.tb-ai-avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.tb-ai-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.tb-ai-status {
+    font-size: 11px;
+    opacity: .8;
+    margin-top: 2px;
+}
+
+#tb-ai-close {
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.tb-ai-messages {
+    flex: 1;
+    padding: 16px;
+    overflow-y: auto;
+    background: #f7f8f7;
+}
+
+.tb-ai-message {
+    display: flex;
+    margin-bottom: 13px;
+}
+
+.tb-ai-message.user {
+    justify-content: flex-end;
+}
+
+.tb-ai-bubble {
+    max-width: 82%;
+    padding: 11px 14px;
+    border-radius: 15px;
+    font-size: 13.5px;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+
+.tb-ai-message.bot .tb-ai-bubble {
+    background: #fff;
+    color: #222;
+    border-bottom-left-radius: 4px;
+    box-shadow: 0 3px 12px rgba(0,0,0,.06);
+}
+
+.tb-ai-message.user .tb-ai-bubble {
+    background: #046a38;
+    color: #fff;
+    border-bottom-right-radius: 4px;
+}
+
+.tb-ai-suggestions {
+    padding: 0 14px 10px;
+    background: #f7f8f7;
+    display: flex;
+    gap: 7px;
+    overflow-x: auto;
+}
+
+.tb-ai-suggestion {
+    flex: 0 0 auto;
+    padding: 7px 11px;
+    border: 1px solid #dce4df;
+    border-radius: 20px;
+    background: #fff;
+    color: #046a38;
+    font-size: 11px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.tb-ai-suggestion:hover {
+    background: #046a38;
+    color: #fff;
+}
+
+.tb-ai-input-area {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+
+#tb-ai-input {
+    flex: 1;
+    min-width: 0;
+    height: 42px;
+    border: 1px solid #ddd;
+    border-radius: 22px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 13px;
+}
+
+#tb-ai-input:focus {
+    border-color: #046a38;
+}
+
+#tb-ai-send {
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 50%;
+    background: #ff671f;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#tb-ai-send:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
+
+.tb-ai-typing {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.tb-ai-typing span {
+    width: 6px;
+    height: 6px;
+    background: #888;
+    border-radius: 50%;
+    animation: tbTyping 1s infinite;
+}
+
+.tb-ai-typing span:nth-child(2) {
+    animation-delay: .15s;
+}
+
+.tb-ai-typing span:nth-child(3) {
+    animation-delay: .3s;
+}
+
+@keyframes tbTyping {
+    0%, 60%, 100% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(-5px);
+    }
+}
+
+@media (max-width: 520px) {
+    #tb-ai-chat {
+        right: 10px;
+        left: 10px;
+        bottom: 90px;
+        width: auto;
+        height: min(560px, 75vh);
+    }
+
+    #tb-ai-toggle {
+        right: 16px;
+        bottom: 16px;
+    }
+}
+

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login — TravelBharat</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body class="login-page">
+
+    <main class="login-main">
+        <div class="login-decoration login-decoration-one">✦</div>
+        <div class="login-decoration login-decoration-two">✦</div>
+        <div class="login-decoration login-decoration-three">✦</div>
+
+        <section class="login-section">
+            <div class="login-container">
+                <div class="login-intro">
+                    <span class="login-tag">WELCOME BACK</span>
+                    <h1>Explore India, <em>one journey</em> at a time.</h1>
+                    <p>Sign in to continue your TravelBharat journey, save your favourite destinations and discover incredible places across India.</p>
+
+                    <div class="login-features">
+                        <div class="login-feature">
+                            <div class="feature-icon">✦</div>
+                            <div>
+                                <strong>Save Destinations</strong>
+                                <span>Keep your favourite places close.</span>
+                            </div>
+                        </div>
+
+                        <div class="login-feature">
+                            <div class="feature-icon">♡</div>
+                            <div>
+                                <strong>Plan Your Journey</strong>
+                                <span>Build your perfect India trip.</span>
+                            </div>
+                        </div>
+
+                        <div class="login-feature">
+                            <div class="feature-icon">◎</div>
+                            <div>
+                                <strong>Discover More</strong>
+                                <span>Explore hidden gems and local culture.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="login-card">
+                    <div class="login-card-top">
+                        <span class="card-small-tag">TRAVELBHARAT</span>
+                        <h2>Welcome <em>back.</em></h2>
+                        <p>Login to continue exploring India.</p>
+                    </div>
+
+                    <form class="login-form" id="loginForm">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <div class="input-box">
+                                <span class="input-icon">@</span>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="email" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="label-row">
+                                <label for="password">Password</label>
+                                <a href="#" class="forgot-password">Forgot password?</a>
+                            </div>
+                            <div class="input-box">
+                                <span class="input-icon">•</span>
+                                <input type="password" id="password" name="password" placeholder="Enter your password" autocomplete="current-password" required>
+                                <button type="button" class="password-toggle" id="passwordToggle" aria-label="Show password">Show</button>
+                            </div>
+                        </div>
+
+                        <div class="remember-row">
+                            <label class="remember">
+                                <input type="checkbox" id="remember" name="remember">
+                                <span class="checkmark"></span>
+                                <span>Remember me</span>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="login-btn">
+                            <span>Login to TravelBharat</span>
+                            <span class="btn-arrow">→</span>
+                        </button>
+
+                        <div class="login-divider">
+                            <span>or continue with</span>
+                        </div>
+
+                        <div class="social-login">
+                            <button type="button" class="social-btn">
+                                <span>G</span> Google
+                            </button>
+                            <button type="button" class="social-btn">
+                                <span>f</span> Facebook
+                            </button>
+                        </div>
+
+                        <p class="register-text">
+                            Don't have an account?
+                            <a href="register.html">Create one</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="login-footer">
+        <p>© 2026 TravelBharat. Explore India. Experience Bharat.</p>
+    </footer>
+
+    <script src="js/login.js"></script>
+</body>
+</html>

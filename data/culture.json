@@ -1,0 +1,294 @@
+{
+  "states": [
+    {
+      "id": "andhra-pradesh",
+      "state": "Andhra Pradesh",
+      "culture": "Kuchipudi",
+      "description": "Andhra Pradesh is known for its classical dance, traditional arts, crafts and rich cultural heritage.",
+      "location": "Amaravati",
+      "image": "images/culture/states/andhra-pradesh.jpg"
+    },
+    {
+      "id": "arunachal-pradesh",
+      "state": "Arunachal Pradesh",
+      "culture": "Tribal Heritage",
+      "description": "The state is home to diverse tribal communities, traditional festivals, colorful costumes and indigenous crafts.",
+      "location": "Itanagar",
+      "image": "images/culture/states/arunachal-pradesh.jpg"
+    },
+    {
+      "id": "assam",
+      "state": "Assam",
+      "culture": "Bihu",
+      "description": "Assamese culture is celebrated through Bihu dance, traditional music, handloom and vibrant festivals.",
+      "location": "Guwahati",
+      "image": "images/culture/states/assam.jpg"
+    },
+    {
+      "id": "bihar",
+      "state": "Bihar",
+      "culture": "Madhubani Art",
+      "description": "Bihar is famous for Madhubani paintings, folk traditions, literature and ancient cultural heritage.",
+      "location": "Patna",
+      "image": "images/culture/states/bihar.jpg"
+    },
+    {
+      "id": "chhattisgarh",
+      "state": "Chhattisgarh",
+      "culture": "Tribal Culture",
+      "description": "Chhattisgarh has a rich tribal heritage expressed through folk dances, music, crafts and traditional festivals.",
+      "location": "Raipur",
+      "image": "images/culture/states/chhattisgarh.jpg"
+    },
+    {
+      "id": "goa",
+      "state": "Goa",
+      "culture": "Goan Heritage",
+      "description": "Goa blends Indian traditions with Portuguese influences, visible in its music, architecture, festivals and lifestyle.",
+      "location": "Panaji",
+      "image": "images/culture/states/goa.jpg"
+    },
+    {
+      "id": "gujarat",
+      "state": "Gujarat",
+      "culture": "Garba",
+      "description": "Gujarat is famous for Garba and Dandiya, colorful textiles, handicrafts and vibrant traditional festivals.",
+      "location": "Ahmedabad",
+      "image": "images/culture/states/gujarat.jpg"
+    },
+    {
+      "id": "haryana",
+      "state": "Haryana",
+      "culture": "Folk Dance",
+      "description": "Haryana's culture includes energetic folk dances, traditional music, rural customs and colorful celebrations.",
+      "location": "Chandigarh",
+      "image": "images/culture/states/haryana.jpg"
+    },
+    {
+      "id": "himachal-pradesh",
+      "state": "Himachal Pradesh",
+      "culture": "Pahari Culture",
+      "description": "Himachal Pradesh is known for Pahari traditions, folk dances, woolen crafts and mountain festivals.",
+      "location": "Shimla",
+      "image": "images/culture/states/himachal-pradesh.jpg"
+    },
+    {
+      "id": "jharkhand",
+      "state": "Jharkhand",
+      "culture": "Tribal Heritage",
+      "description": "Jharkhand has a strong tribal identity expressed through folk dances, music, paintings and traditional festivals.",
+      "location": "Ranchi",
+      "image": "images/culture/states/jharkhand.jpg"
+    },
+    {
+      "id": "karnataka",
+      "state": "Karnataka",
+      "culture": "Yakshagana",
+      "description": "Karnataka is known for Yakshagana theatre, classical music, traditional crafts and rich historical heritage.",
+      "location": "Bengaluru",
+      "image": "images/culture/states/karnataka.jpg"
+    },
+    {
+      "id": "kerala",
+      "state": "Kerala",
+      "culture": "Kathakali",
+      "description": "Kerala is famous for Kathakali, Mohiniyattam, traditional festivals, Ayurveda and distinctive architecture.",
+      "location": "Thiruvananthapuram",
+      "image": "images/culture/states/kerala.jpg"
+    },
+    {
+      "id": "madhya-pradesh",
+      "state": "Madhya Pradesh",
+      "culture": "Folk Arts",
+      "description": "Madhya Pradesh has diverse tribal traditions, folk dances, music, paintings and historic cultural heritage.",
+      "location": "Bhopal",
+      "image": "images/culture/states/madhya-pradesh.jpg"
+    },
+    {
+      "id": "maharashtra",
+      "state": "Maharashtra",
+      "culture": "Lavani",
+      "description": "Maharashtra is known for Lavani dance, Powada folk traditions, theatre, festivals and diverse cuisine.",
+      "location": "Mumbai",
+      "image": "images/culture/states/maharashtra.jpg"
+    },
+    {
+      "id": "manipur",
+      "state": "Manipur",
+      "culture": "Manipuri Dance",
+      "description": "Manipur is renowned for its graceful classical dance, traditional music, handloom and indigenous traditions.",
+      "location": "Imphal",
+      "image": "images/culture/states/manipur.jpg"
+    },
+    {
+      "id": "meghalaya",
+      "state": "Meghalaya",
+      "culture": "Khasi Culture",
+      "description": "Meghalaya has vibrant Khasi, Garo and Jaintia traditions, folk music, dances and community celebrations.",
+      "location": "Shillong",
+      "image": "images/culture/states/meghalaya.jpg"
+    },
+    {
+      "id": "mizoram",
+      "state": "Mizoram",
+      "culture": "Cheraw Dance",
+      "description": "Mizoram is known for Cheraw bamboo dance, traditional music, colorful festivals and tribal heritage.",
+      "location": "Aizawl",
+      "image": "images/culture/states/mizoram.jpg"
+    },
+    {
+      "id": "nagaland",
+      "state": "Nagaland",
+      "culture": "Naga Heritage",
+      "description": "Nagaland is famous for its diverse Naga tribes, traditional costumes, crafts, music and festivals.",
+      "location": "Kohima",
+      "image": "images/culture/states/nagaland.jpg"
+    },
+    {
+      "id": "odisha",
+      "state": "Odisha",
+      "culture": "Odissi",
+      "description": "Odisha is known for Odissi classical dance, Pattachitra paintings, temple architecture and traditional crafts.",
+      "location": "Bhubaneswar",
+      "image": "images/culture/states/odisha.jpg"
+    },
+    {
+      "id": "punjab",
+      "state": "Punjab",
+      "culture": "Bhangra",
+      "description": "Punjab is celebrated for Bhangra, Giddha, Punjabi music, colorful traditions and warm hospitality.",
+      "location": "Amritsar",
+      "image": "images/culture/states/punjab.jpg"
+    },
+    {
+      "id": "rajasthan",
+      "state": "Rajasthan",
+      "culture": "Rajasthani Folk Culture",
+      "description": "Rajasthan is famous for folk dances, music, colorful clothing, handicrafts, puppetry and royal traditions.",
+      "location": "Jaipur",
+      "image": "images/culture/states/rajasthan.jpg"
+    },
+    {
+      "id": "sikkim",
+      "state": "Sikkim",
+      "culture": "Buddhist Heritage",
+      "description": "Sikkim reflects Tibetan Buddhist traditions through monasteries, festivals, art and peaceful mountain culture.",
+      "location": "Gangtok",
+      "image": "images/culture/states/sikkim.jpg"
+    },
+    {
+      "id": "tamil-nadu",
+      "state": "Tamil Nadu",
+      "culture": "Bharatanatyam",
+      "description": "Tamil Nadu is renowned for Bharatanatyam, classical music, temples, literature and traditional arts.",
+      "location": "Chennai",
+      "image": "images/culture/states/tamil-nadu.jpg"
+    },
+    {
+      "id": "telangana",
+      "state": "Telangana",
+      "culture": "Bathukamma",
+      "description": "Telangana has a vibrant cultural identity expressed through Bathukamma, folk arts, crafts and traditional celebrations.",
+      "location": "Hyderabad",
+      "image": "images/culture/states/telangana.jpg"
+    },
+    {
+      "id": "tripura",
+      "state": "Tripura",
+      "culture": "Tribal Traditions",
+      "description": "Tripura combines tribal and Bengali traditions through folk dances, music, crafts and colorful festivals.",
+      "location": "Agartala",
+      "image": "images/culture/states/tripura.jpg"
+    },
+    {
+      "id": "uttar-pradesh",
+      "state": "Uttar Pradesh",
+      "culture": "Kathak",
+      "description": "Uttar Pradesh is known for Kathak, classical music, Awadhi and Braj traditions, crafts and historic heritage.",
+      "location": "Lucknow",
+      "image": "images/culture/states/uttar-pradesh.jpg"
+    },
+    {
+      "id": "uttarakhand",
+      "state": "Uttarakhand",
+      "culture": "Pahari Traditions",
+      "description": "Uttarakhand is known for folk music, traditional dances, mountain festivals and distinctive Himalayan culture.",
+      "location": "Dehradun",
+      "image": "images/culture/states/uttarakhand.jpg"
+    },
+    {
+      "id": "west-bengal",
+      "state": "West Bengal",
+      "culture": "Baul Music",
+      "description": "West Bengal has a rich tradition of Baul music, literature, theatre, crafts and artistic celebrations.",
+      "location": "Kolkata",
+      "image": "images/culture/states/west-bengal.jpg"
+    }
+  ],
+  "unionTerritories": [
+    {
+      "id": "andaman-nicobar",
+      "state": "Andaman & Nicobar Islands",
+      "culture": "Island Heritage",
+      "description": "The islands showcase indigenous traditions, coastal culture, handicrafts and diverse communities.",
+      "location": "Port Blair",
+      "image": "images/culture/ut/andaman-nicobar.jpg"
+    },
+    {
+      "id": "chandigarh",
+      "state": "Chandigarh",
+      "culture": "Modern Punjabi Culture",
+      "description": "Chandigarh reflects a blend of Punjabi traditions, modern urban culture, art and architecture.",
+      "location": "Chandigarh",
+      "image": "images/culture/ut/chandigarh.jpg"
+    },
+    {
+      "id": "dadra-nagar-haveli-daman-diu",
+      "state": "Dadra & Nagar Haveli and Daman & Diu",
+      "culture": "Tribal & Coastal Culture",
+      "description": "The union territory combines tribal traditions, coastal heritage, folk arts and Portuguese influences.",
+      "location": "Daman",
+      "image": "images/culture/ut/daman-diu.jpg"
+    },
+    {
+      "id": "delhi",
+      "state": "Delhi",
+      "culture": "Mughal & Modern Heritage",
+      "description": "Delhi blends Mughal heritage, diverse Indian traditions, historic monuments, food and modern culture.",
+      "location": "New Delhi",
+      "image": "images/culture/ut/delhi.jpg"
+    },
+    {
+      "id": "jammu-kashmir",
+      "state": "Jammu & Kashmir",
+      "culture": "Kashmiri Heritage",
+      "description": "Jammu & Kashmir is known for traditional handicrafts, Kashmiri music, embroidery and rich cultural traditions.",
+      "location": "Srinagar",
+      "image": "images/culture/ut/jammu-kashmir.jpg"
+    },
+    {
+      "id": "ladakh",
+      "state": "Ladakh",
+      "culture": "Tibetan Buddhist Culture",
+      "description": "Ladakh is known for Buddhist monasteries, traditional festivals, art and unique Himalayan traditions.",
+      "location": "Leh",
+      "image": "images/culture/ut/ladakh.jpg"
+    },
+    {
+      "id": "lakshadweep",
+      "state": "Lakshadweep",
+      "culture": "Island Culture",
+      "description": "Lakshadweep has a distinctive island culture shaped by coastal traditions, music, food and community life.",
+      "location": "Kavaratti",
+      "image": "images/culture/ut/lakshadweep.jpg"
+    },
+    {
+      "id": "puducherry",
+      "state": "Puducherry",
+      "culture": "Franco-Tamil Heritage",
+      "description": "Puducherry combines Tamil traditions with French colonial heritage, architecture, art and cuisine.",
+      "location": "Puducherry",
+      "image": "images/culture/ut/puducherry.jpg"
+    }
+  ]
+}

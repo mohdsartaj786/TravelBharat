@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | TravelBharat</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/ai-bot.css">
+</head>
+
+<body class="gallery-page">
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🇮🇳</span>
+                <span>Travel<span>Bharat</span></span>
+            </a>
+
+            <nav class="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="states.html">States</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="food.html">Food</a>
+                <a href="culture.html">Culture</a>
+                <a href="travel-guide.html">Travel Guide</a>
+                <a href="gallery.html" class="active">Gallery</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="favorites.html" class="nav-icon" title="Favorites">♡</a>
+                <a href="login.html" class="login-btn">Login</a>
+                <button class="menu-btn" id="menuBtn" type="button" aria-label="Open Menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="states.html">States</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="food.html">Food</a>
+        <a href="culture.html">Culture</a>
+        <a href="travel-guide.html">Travel Guide</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="favorites.html">Favorites</a>
+        <a href="login.html">Login</a>
+    </div>
+
+    <main>
+        <section class="gallery-hero">
+            <div class="gallery-hero-image">
+                <img src="images/gallery/gallery-hero.jpg" alt="Beautiful India landscape">
+            </div>
+            <div class="gallery-hero-overlay"></div>
+            <div class="container">
+                <div class="gallery-hero-content">
+                    <span class="gallery-eyebrow">VISUAL JOURNEY • INDIA</span>
+                    <h1>India, <em>Through</em> Our Lens.</h1>
+                    <p>Discover India's incredible landscapes, heritage, culture, festivals and unforgettable travel moments through our curated gallery.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-intro">
+            <div class="container">
+                <div class="gallery-intro-content">
+                    <span class="gallery-tag">THE COLLECTION</span>
+                    <h2>Every picture tells <em>a story.</em></h2>
+                    <p>From the snow-covered Himalayas to the tropical beaches of Kerala, explore the many colours, cultures and landscapes that make India unique.</p>
+                </div>
+
+                <div class="gallery-filters">
+                    <button class="gallery-filter active" type="button" data-filter="all">All</button>
+                    <button class="gallery-filter" type="button" data-filter="nature">Nature</button>
+                    <button class="gallery-filter" type="button" data-filter="heritage">Heritage</button>
+                    <button class="gallery-filter" type="button" data-filter="culture">Culture</button>
+                    <button class="gallery-filter" type="button" data-filter="beaches">Beaches</button>
+                    <button class="gallery-filter" type="button" data-filter="mountains">Mountains</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <div class="container">
+                <div class="gallery-grid">
+                    <article class="gallery-item large" data-category="heritage">
+                        <img src="images/gallery/rajasthan.jpg" alt="Rajasthan heritage" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div>
+                                <span>RAJASTHAN</span>
+                                <h3>Royal Heritage</h3>
+                                <p>Forts, palaces and timeless stories.</p>
+                            </div>
+                            <button class="gallery-view" type="button" aria-label="View image">↗</button>
+                        </div>
+                    </article>
+
+                    <article class="gallery-item" data-category="mountains">
+                        <img src="images/gallery/himalayas.jpg" alt="Himalayan mountains" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div>
+                                <span>HIMALAYAS</span>
+                                <h3>Into The Mountains</h3>
+                            </div>
+                            <button class="gallery-view" type="button" aria-label="View image">↗</button>
+                        </div>
+                    </article>
+
+                    <article class="gallery-item" data-category="beaches">
+                        <img src="images/gallery/goa.jpg" alt="Goa beach" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div>
+                                <span>GOA</span>
+                                <h3>Coastal Escape</h3>
+                            </div>
+                            <button class="gallery-view" type="button" aria-label="View image">↗</button>
+                        </div>
+                    </article>
+
+                    <article class="gallery-item" data-category="culture">
+                        <img src="images/gallery/varanasi.jpg" alt="Varanasi Ganga Ghats" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div>
+                                <span>VARANASI</span>
+                                <h3>Spirit of the Ganges</h3>
+                            </div>
+                            <button class="gallery-view" type="button" aria-label="View image">↗</button>
+                        </div>
+                    </article>
+
+                    <article class="gallery-item large" data-category="nature">
+                        <img src="images/gallery/kerala.jpg" alt="Kerala backwaters" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div>
+                                <span>KERALA</span>
+                                <h3>God's Own Country</h3>
+                                <p>Green landscapes and peaceful waters.</p>
+                            </div>
+                            <button class="gallery-view" type="button" aria-label="View image">↗</button>
+                        </div>
+                    </article>
+
+                    <article class="gallery-item" data-category="culture">
+                        <img src="images/gallery/holi.jpg" alt="Holi festival in India" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div>
+                                <span>INDIA</span>
+                                <h3>Festival of Colours</h3>
+                            </div>
+                            <button class="gallery-view" type="button" aria-label="View image">↗</button>
+                        </div>
+                    </article>
+
+                    <article class="gallery-item" data-category="nature">
+                        <img src="images/gallery/meghalaya.jpg" alt="Meghalaya landscape" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div>
+                                <span>MEGHALAYA</span>
+                                <h3>Into the Green</h3>
+                            </div>
+                            <button class="gallery-view" type="button" aria-label="View image">↗</button>
+                        </div>
+                    </article>
+
+                    <article class="gallery-item" data-category="heritage">
+                        <img src="images/gallery/taj-mahal.jpg" alt="Taj Mahal" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div>
+                                <span>AGRA</span>
+                                <h3>Symbol of Love</h3>
+                            </div>
+                            <button class="gallery-view" type="button" aria-label="View image">↗</button>
+                        </div>
+                    </article>
+
+                    <article class="gallery-item large" data-category="nature">
+                        <img src="images/gallery/ladakh.jpg" alt="Ladakh landscape" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div>
+                                <span>LADAKH</span>
+                                <h3>Land of High Passes</h3>
+                                <p>Raw landscapes beyond imagination.</p>
+                            </div>
+                            <button class="gallery-view" type="button" aria-label="View image">↗</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-quote">
+            <div class="container">
+                <div class="gallery-quote-content">
+                    <span class="gallery-tag">TRAVEL INDIA</span>
+                    <blockquote>
+                        “India is not a destination. It is a collection of <em>stories waiting to be lived.</em>”
+                    </blockquote>
+                    <span class="quote-line"></span>
+                    <p>— TravelBharat</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-cta">
+            <div class="container">
+                <div class="gallery-cta-content">
+                    <span class="gallery-tag">YOUR NEXT ADVENTURE</span>
+                    <h2>See it. <em>Feel it.</em> Explore it.</h2>
+                    <p>Let these moments inspire your next journey across the incredible states of India.</p>
+                    <a href="states.html" class="gallery-cta-btn">Explore States <span>→</span></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="gallery-modal" id="galleryModal" aria-hidden="true" role="dialog">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close" type="button" aria-label="Close modal">✕</button>
+            <img src="" alt="Expanded preview" id="modalImage">
+            <div class="modal-caption" id="modalCaption"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">🇮🇳</span>
+                    <span>Travel<span>Bharat</span></span>
+                </a>
+                <p>Explore India state by state and discover destinations, food, culture and traditions.</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Explore</h4>
+                <a href="states.html">States</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="food.html">Food</a>
+                <a href="culture.html">Culture</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>Travel</h4>
+                <a href="travel-guide.html">Travel Guide</a>
+                <a href="festivals.html">Festivals</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="favorites.html">Favorites</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <a href="login.html">Login</a>
+                <a href="register.html">Register</a>
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="terms.html">Terms & Conditions</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2026 TravelBharat. Made with ❤️ for India.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/ai-bot.js"></script>
+</body>
+</html>

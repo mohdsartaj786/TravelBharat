@@ -1,0 +1,140 @@
+[
+    {
+        "id": "best-time",
+        "number": "01",
+        "icon": "🌤️",
+        "title": "Best Time to Visit India",
+        "description": "Plan your trip according to India's diverse seasons.",
+        "intro": "India offers different travel experiences throughout the year.",
+        "sections": [
+            {
+                "title": "Winter Season",
+                "content": "October to February is ideal for many destinations."
+            },
+            {
+                "title": "Summer Season",
+                "content": "Hill stations are popular during summer."
+            },
+            {
+                "title": "Monsoon Season",
+                "content": "Monsoon brings greenery and beautiful landscapes."
+            }
+        ],
+        "tip": "Always check the weather before planning your journey."
+    },
+    {
+        "id": "budget-travel",
+        "number": "02",
+        "icon": "💰",
+        "title": "Budget Travel Guide",
+        "description": "Explore India comfortably while keeping your travel budget under control.",
+        "intro": "With smart planning, India can be an affordable and memorable destination.",
+        "sections": [
+            {
+                "title": "Accommodation",
+                "content": "Choose budget hotels, hostels, guesthouses, or homestays to reduce accommodation costs."
+            },
+            {
+                "title": "Food",
+                "content": "Try local restaurants and street food for delicious meals at reasonable prices."
+            },
+            {
+                "title": "Transportation",
+                "content": "Use trains, buses, metro services, and shared transport for economical travel."
+            }
+        ],
+        "tip": "Set a daily budget and keep some extra money for unexpected expenses."
+    },
+    {
+        "id": "transport",
+        "number": "03",
+        "icon": "🚆",
+        "title": "Transportation in India",
+        "description": "Learn about the different ways to travel across India.",
+        "intro": "India has a wide transportation network that connects cities, towns, and tourist destinations.",
+        "sections": [
+            {
+                "title": "Railways",
+                "content": "Indian Railways is one of the most convenient options for long-distance travel across the country."
+            },
+            {
+                "title": "Road Travel",
+                "content": "Buses, taxis, rental cars, and local transport are useful for short and medium-distance journeys."
+            },
+            {
+                "title": "Air Travel",
+                "content": "Domestic flights are a good option when you need to cover long distances quickly."
+            }
+        ],
+        "tip": "Book trains and flights early during holidays and peak travel seasons."
+    },
+    {
+        "id": "packing-guide",
+        "number": "04",
+        "icon": "🎒",
+        "title": "Packing Guide",
+        "description": "Pack smart and prepare for different destinations and weather conditions.",
+        "intro": "The right packing list can make your journey more comfortable and stress-free.",
+        "sections": [
+            {
+                "title": "Essential Clothing",
+                "content": "Pack comfortable clothes according to the destination's weather and the activities you plan to do."
+            },
+            {
+                "title": "Travel Essentials",
+                "content": "Carry identification documents, medicines, chargers, power banks, toiletries, and other daily essentials."
+            },
+            {
+                "title": "Destination Specific Items",
+                "content": "Carry suitable footwear, rain protection, warm clothes, or adventure gear depending on your destination."
+            }
+        ],
+        "tip": "Keep important documents and valuables in a safe and easily accessible place."
+    },
+    {
+        "id": "travel-safety",
+        "number": "05",
+        "icon": "🛡️",
+        "title": "Travel Safety Guide",
+        "description": "Follow simple safety practices for a secure and enjoyable journey.",
+        "intro": "A few basic precautions can help you enjoy your trip with greater confidence and peace of mind.",
+        "sections": [
+            {
+                "title": "Protect Your Belongings",
+                "content": "Keep your wallet, phone, documents, and other valuables secure, especially in crowded places."
+            },
+            {
+                "title": "Stay Connected",
+                "content": "Keep your phone charged and share your travel plans and important contact details with someone you trust."
+            },
+            {
+                "title": "Respect Local Rules",
+                "content": "Follow local laws, customs, and safety instructions at tourist attractions and public places."
+            }
+        ],
+        "tip": "Save emergency contacts and important documents on your phone before starting your journey."
+    },
+    {
+        "id": "responsible-travel",
+        "number": "06",
+        "icon": "🌱",
+        "title": "Responsible Travel",
+        "description": "Travel responsibly and help protect India's natural and cultural heritage.",
+        "intro": "Responsible tourism helps preserve destinations while supporting local communities and culture.",
+        "sections": [
+            {
+                "title": "Protect Nature",
+                "content": "Avoid littering, reduce plastic use, and respect wildlife and natural surroundings."
+            },
+            {
+                "title": "Support Local Communities",
+                "content": "Choose local businesses, handicrafts, guides, and restaurants whenever possible."
+            },
+            {
+                "title": "Respect Culture",
+                "content": "Respect local traditions, religious places, customs, and communities during your travels."
+            }
+        ],
+        "tip": "Leave every destination as beautiful and clean as you found it."
+    }
+]

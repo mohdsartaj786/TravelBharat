@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Udaipur, Rajasthan with TravelBharat">
+    <title>Udaipur | TravelBharat</title>
+
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/destination-detail.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="container nav-container">
+
+        <a href="../index.html" class="logo">
+            <span class="logo-icon">🇮🇳</span>
+            <span>Travel<span>Bharat</span></span>
+        </a>
+
+        <nav class="nav-menu">
+            <a href="../index.html">Home</a>
+            <a href="../states.html">States</a>
+            <a href="../destinations.html">Destinations</a>
+            <a href="../food.html">Food</a>
+            <a href="../culture.html">Culture</a>
+            <a href="../festivals.html">Festivals</a>
+            <a href="../travel-guide.html">Travel Guide</a>
+            <a href="../about.html">About</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="../favorites.html" class="nav-icon" title="Favorites">♡</a>
+            <a href="../login.html" class="login-btn">Login</a>
+            <button class="menu-btn" id="menuBtn">☰</button>
+        </div>
+
+    </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+    <a href="../index.html">Home</a>
+    <a href="../states.html">States</a>
+    <a href="../destinations.html">Destinations</a>
+    <a href="../food.html">Food</a>
+    <a href="../culture.html">Culture</a>
+    <a href="../festivals.html">Festivals</a>
+    <a href="../travel-guide.html">Travel Guide</a>
+    <a href="../about.html">About</a>
+    <a href="../favorites.html">♡ Favorites</a>
+</div>
+
+<main>
+
+<section class="destination-hero">
+
+    <div class="container">
+
+        <div class="destination-image">
+            <img
+                src="../images/states/rajasthan.jpg"
+                alt="Beautiful Udaipur Rajasthan"
+            >
+        </div>
+
+        <div class="destination-info">
+
+            <span class="destination-state">
+                Rajasthan
+            </span>
+
+            <h1>Udaipur</h1>
+
+            <p>
+                The City of Lakes, famous for beautiful palaces,
+                peaceful lakes, gardens and royal heritage.
+            </p>
+
+            <button
+                type="button"
+                id="favoriteBtn"
+                class="favorite-btn"
+                data-destination-id="udaipur"
+            >
+                ♡ Save to Favorites
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="destination-content">
+
+    <div class="container">
+
+        <h2>About Udaipur</h2>
+
+        <p>
+            Udaipur is one of Rajasthan's most beautiful cities.
+            Surrounded by the Aravalli Hills and several picturesque
+            lakes, the city is known for its royal palaces,
+            traditional architecture, colorful culture and scenic
+            landscapes. Its peaceful atmosphere and historic charm
+            make it one of India's most popular tourist destinations.
+        </p>
+
+        <h2>Top Places to Visit</h2>
+
+        <div class="places-grid">
+
+            <article class="place-card">
+                <h3>City Palace</h3>
+                <p>
+                    A magnificent royal palace overlooking Lake Pichola,
+                    known for its grand architecture and historic interiors.
+                </p>
+            </article>
+
+            <article class="place-card">
+                <h3>Lake Pichola</h3>
+                <p>
+                    A beautiful artificial lake surrounded by palaces,
+                    hills and scenic waterfront views.
+                </p>
+            </article>
+
+            <article class="place-card">
+                <h3>Jag Mandir</h3>
+                <p>
+                    A stunning island palace located on Lake Pichola,
+                    famous for its architecture and peaceful surroundings.
+                </p>
+            </article>
+
+            <article class="place-card">
+                <h3>Saheliyon Ki Bari</h3>
+                <p>
+                    A historic garden featuring fountains, marble
+                    structures, greenery and beautiful walking paths.
+                </p>
+            </article>
+
+            <article class="place-card">
+                <h3>Fateh Sagar Lake</h3>
+                <p>
+                    A peaceful lake surrounded by hills and popular
+                    for relaxing views and evening visits.
+                </p>
+            </article>
+
+            <article class="place-card">
+                <h3>Monsoon Palace</h3>
+                <p>
+                    A hilltop palace offering panoramic views of
+                    Udaipur, its lakes and surrounding Aravalli Hills.
+                </p>
+            </article>
+
+        </div>
+
+        <h2>Things To Do in Udaipur</h2>
+
+        <div class="places-grid">
+
+            <article class="place-card">
+                <h3>🚤 Boat Ride</h3>
+                <p>
+                    Enjoy a relaxing boat ride on Lake Pichola,
+                    especially during sunset.
+                </p>
+            </article>
+
+            <article class="place-card">
+                <h3>🏰 Explore Palaces</h3>
+                <p>
+                    Discover the history, architecture and royal
+                    heritage of Udaipur's magnificent palaces.
+                </p>
+            </article>
+
+            <article class="place-card">
+                <h3>🌅 Sunset Views</h3>
+                <p>
+                    Watch beautiful sunsets around Lake Pichola
+                    and Fateh Sagar Lake.
+                </p>
+            </article>
+
+            <article class="place-card">
+                <h3>🍛 Try Rajasthani Food</h3>
+                <p>
+                    Taste traditional dishes such as Dal Baati Churma,
+                    Gatte Ki Sabzi and other local specialties.
+                </p>
+            </article>
+
+        </div>
+
+        <h2>Best Time to Visit</h2>
+
+        <p>
+            October to March is generally the best and most pleasant
+            time to visit Udaipur. The weather is comfortable for
+            sightseeing, outdoor activities and exploring the lakes
+            and palaces.
+        </p>
+
+        <h2>How To Reach Udaipur</h2>
+
+        <div class="places-grid">
+
+            <article class="place-card">
+                <h3>✈️ By Air</h3>
+                <p>
+                    Maharana Pratap Airport connects Udaipur with
+                    major Indian cities.
+                </p>
+            </article>
+
+            <article class="place-card">
+                <h3>🚆 By Train</h3>
+                <p>
+                    Udaipur railway station provides rail connectivity
+                    with several major cities across India.
+                </p>
+            </article>
+
+            <article class="place-card">
+                <h3>🚌 By Road</h3>
+                <p>
+                    Udaipur is well connected by highways and buses
+                    with cities across Rajasthan and nearby states.
+                </p>
+            </article>
+
+            <article class="place-card">
+                <h3>🚗 Local Travel</h3>
+                <p>
+                    Auto-rickshaws, taxis and local transport can be
+                    used to explore different parts of the city.
+                </p>
+            </article>
+
+        </div>
+
+        <h2>Travel Tips</h2>
+
+        <div class="places-grid">
+
+            <article class="place-card">
+                <h3>☀️ Carry Sun Protection</h3>
+                <p>
+                    Carry sunglasses, sunscreen and a water bottle
+                    while exploring the city.
+                </p>
+            </article>
+
+            <article class="place-card">
+                <h3>👟 Wear Comfortable Shoes</h3>
+                <p>
+                    Comfortable footwear is recommended for exploring
+                    palaces, markets and tourist attractions.
+                </p>
+            </article>
+
+            <article class="place-card">
+                <h3>📸 Explore Local Markets</h3>
+                <p>
+                    Visit local markets to experience traditional
+                    handicrafts, textiles and Rajasthani culture.
+                </p>
+            </article>
+
+            <article class="place-card">
+                <h3>🌊 Plan Lake Visits</h3>
+                <p>
+                    Evening hours are ideal for enjoying the lakes
+                    and sunset views.
+                </p>
+            </article>
+
+        </div>
+
+        <h2>Explore More Rajasthan</h2>
+
+        <div class="places-grid">
+
+            <article class="place-card">
+                <h3>Jaipur</h3>
+                <p>
+                    Explore the Pink City, royal forts and vibrant
+                    Rajasthani culture.
+                </p>
+                <a href="jaipur.html">Explore Jaipur →</a>
+            </article>
+
+            <article class="place-card">
+                <h3>Explore More Destinations</h3>
+                <p>
+                    Discover amazing destinations across India
+                    with TravelBharat.
+                </p>
+                <a href="../destinations.html">
+                    View All Destinations →
+                </a>
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>
+            © 2026 TravelBharat. Explore India, Experience Bharat.
+        </p>
+    </div>
+</footer>
+
+<script src="../js/navbar.js"></script>
+<script src="../js/favourite.js"></script>
+
+</body>
+</html>

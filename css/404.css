@@ -1,0 +1,862 @@
+/* =========================================================
+   TRAVELBHARAT — 404 PAGE
+   CLEAN PREMIUM + TIRANGA
+========================================================= */
+
+:root {
+    --tb-saffron: #ff671f;
+    --tb-green: #046a38;
+    --tb-green-dark: #08251e;
+    --tb-green-main: #123c32;
+
+    --tb-bg: #fbf8f2;
+    --tb-white: #ffffff;
+
+    --tb-text: #17221e;
+    --tb-muted: #707a75;
+
+    --tb-border: rgba(18, 60, 50, 0.1);
+
+    --tb-shadow: 0 15px 40px rgba(18, 60, 50, 0.08);
+    --tb-shadow-hover: 0 25px 55px rgba(18, 60, 50, 0.15);
+}
+
+
+/* =========================================================
+   RESET
+========================================================= */
+
+.error-page {
+    margin: 0;
+    padding: 0;
+
+    min-height: 100vh;
+
+    background: var(--tb-bg);
+    color: var(--tb-text);
+
+    overflow-x: hidden;
+}
+
+.error-page *,
+.error-page *::before,
+.error-page *::after {
+    box-sizing: border-box;
+}
+
+.error-page a {
+    text-decoration: none;
+}
+
+
+/* =========================================================
+   MAIN
+========================================================= */
+
+.error-main {
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+
+/* =========================================================
+   ERROR SECTION
+========================================================= */
+
+.error-section {
+    position: relative;
+
+    min-height: calc(100vh - 80px);
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 70px 25px 50px;
+
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 10% 20%,
+            rgba(255, 103, 31, 0.07),
+            transparent 25%
+        ),
+        radial-gradient(
+            circle at 90% 80%,
+            rgba(4, 106, 56, 0.08),
+            transparent 28%
+        ),
+        var(--tb-bg);
+}
+
+
+/* =========================================================
+   TIRANGA TOP BORDER
+========================================================= */
+
+.error-section {
+    border-top: 4px solid transparent;
+
+    border-image:
+        linear-gradient(
+            to right,
+            #ff671f 0%,
+            #ff671f 33.33%,
+            #ffffff 33.33%,
+            #ffffff 66.66%,
+            #046a38 66.66%,
+            #046a38 100%
+        ) 1;
+}
+
+
+/* =========================================================
+   BACKGROUND CIRCLES
+========================================================= */
+
+.error-section::before {
+    content: "";
+
+    position: absolute;
+
+    width: 500px;
+    height: 500px;
+
+    top: -300px;
+    right: -220px;
+
+    border: 1px solid rgba(4, 106, 56, 0.08);
+
+    border-radius: 50%;
+
+    pointer-events: none;
+}
+
+.error-section::after {
+    content: "";
+
+    position: absolute;
+
+    width: 400px;
+    height: 400px;
+
+    bottom: -250px;
+    left: -180px;
+
+    border: 1px solid rgba(255, 103, 31, 0.09);
+
+    border-radius: 50%;
+
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   DECORATIONS
+========================================================= */
+
+.error-decoration {
+    position: absolute;
+
+    z-index: 1;
+
+    pointer-events: none;
+
+    animation: errorFloat 5s ease-in-out infinite;
+}
+
+.error-decoration-one {
+    top: 22%;
+    left: 12%;
+
+    color: var(--tb-saffron);
+
+    font-size: 28px;
+}
+
+.error-decoration-two {
+    top: 28%;
+    right: 12%;
+
+    color: var(--tb-green);
+
+    font-size: 34px;
+
+    animation-delay: 1s;
+}
+
+.error-decoration-three {
+    bottom: 25%;
+    left: 18%;
+
+    color: var(--tb-saffron);
+
+    font-size: 25px;
+
+    animation-delay: 2s;
+}
+
+@keyframes errorFloat {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+}
+
+
+/* =========================================================
+   CONTENT
+========================================================= */
+
+.error-content {
+    position: relative;
+
+    z-index: 5;
+
+    width: 100%;
+    max-width: 850px;
+
+    text-align: center;
+}
+
+
+/* =========================================================
+   TAG
+========================================================= */
+
+.error-tag {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    color: var(--tb-saffron);
+
+    font-size: 10px;
+    font-weight: 800;
+
+    letter-spacing: 3px;
+
+    text-transform: uppercase;
+}
+
+.error-tag::before,
+.error-tag::after {
+    content: "";
+
+    width: 28px;
+    height: 1px;
+
+    background: var(--tb-saffron);
+}
+
+
+/* =========================================================
+   404 NUMBER
+   IMPORTANT:
+   DO NOT USE FLEX HERE
+========================================================= */
+
+.error-number {
+    margin: 25px 0 0;
+
+    font-family:
+        "Playfair Display",
+        Georgia,
+        serif;
+
+    font-size: clamp(150px, 22vw, 280px);
+
+    font-weight: 700;
+
+    line-height: 0.8;
+
+    letter-spacing: -12px;
+
+    white-space: nowrap;
+
+    user-select: none;
+}
+
+
+/* =========================================================
+   FIRST 4 — SAFFRON
+========================================================= */
+
+.error-number .saffron {
+    color: #ff671f;
+
+    text-shadow:
+        0 12px 30px rgba(255, 103, 31, 0.16);
+}
+
+
+/* =========================================================
+   0 — WHITE
+========================================================= */
+
+.error-number .white {
+    color: #ffffff;
+
+    /*
+       Green outline makes white visible
+       on cream background.
+    */
+
+    -webkit-text-stroke: 3px #123c32;
+
+    text-shadow:
+        0 8px 20px rgba(18, 60, 50, 0.08);
+}
+
+
+/* =========================================================
+   LAST 4 — GREEN
+========================================================= */
+
+.error-number .green {
+    color: #046a38;
+
+    text-shadow:
+        0 12px 30px rgba(4, 106, 56, 0.16);
+}
+
+
+/* =========================================================
+   HEADING
+========================================================= */
+
+.error-content h1 {
+    margin: 30px 0 18px;
+
+    color: var(--tb-text);
+
+    font-family:
+        "Playfair Display",
+        Georgia,
+        serif;
+
+    font-size: clamp(42px, 5vw, 64px);
+
+    font-weight: 600;
+
+    line-height: 1;
+
+    letter-spacing: -2px;
+}
+
+.error-content h1 em {
+    color: var(--tb-saffron);
+
+    font-style: italic;
+}
+
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.error-content > p {
+    max-width: 540px;
+
+    margin: 0 auto 30px;
+
+    color: var(--tb-muted);
+
+    font-size: 13px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+.error-buttons {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 12px;
+
+    flex-wrap: wrap;
+}
+
+.error-primary-btn,
+.error-secondary-btn {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    min-height: 50px;
+
+    padding: 0 25px;
+
+    border-radius: 10px;
+
+    font-size: 11px;
+    font-weight: 700;
+
+    transition:
+        .3s ease;
+}
+
+
+/* =========================================================
+   PRIMARY
+========================================================= */
+
+.error-primary-btn {
+    background: var(--tb-green-main);
+
+    color: #ffffff;
+
+    box-shadow:
+        0 10px 25px rgba(18, 60, 50, 0.13);
+}
+
+.error-primary-btn:hover {
+    transform: translateY(-3px);
+
+    background: var(--tb-saffron);
+
+    color: #ffffff;
+
+    box-shadow:
+        0 15px 35px rgba(255, 103, 31, 0.22);
+}
+
+
+/* =========================================================
+   SECONDARY
+========================================================= */
+
+.error-secondary-btn {
+    border: 1px solid var(--tb-border);
+
+    background: rgba(255, 255, 255, 0.7);
+
+    color: var(--tb-green-main);
+}
+
+.error-secondary-btn:hover {
+    transform: translateY(-3px);
+
+    border-color: var(--tb-green);
+
+    background: var(--tb-green);
+
+    color: #ffffff;
+}
+
+.error-secondary-btn span {
+    transition: transform .3s ease;
+}
+
+.error-secondary-btn:hover span {
+    transform: translateX(4px);
+}
+
+
+/* =========================================================
+   DESTINATION CARDS
+========================================================= */
+
+.error-destinations {
+    position: relative;
+
+    z-index: 5;
+
+    width: min(900px, 100%);
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 12px;
+
+    margin-top: 60px;
+}
+
+
+/* =========================================================
+   DESTINATION CARD
+========================================================= */
+
+.error-destination {
+    position: relative;
+
+    min-height: 85px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    padding: 18px 20px;
+
+    overflow: hidden;
+
+    border: 1px solid var(--tb-border);
+
+    border-radius: 14px;
+
+    background: rgba(255, 255, 255, 0.72);
+
+    box-shadow: var(--tb-shadow);
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        background .3s ease;
+}
+
+
+/* Tiranga line */
+
+.error-destination::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 3px;
+
+    background:
+        linear-gradient(
+            to right,
+            #ff671f 0%,
+            #ff671f 33.33%,
+            #ffffff 33.33%,
+            #ffffff 66.66%,
+            #046a38 66.66%,
+            #046a38 100%
+        );
+}
+
+.error-destination:hover {
+    transform: translateY(-5px);
+
+    background: #ffffff;
+
+    box-shadow: var(--tb-shadow-hover);
+}
+
+
+/* =========================================================
+   CARD LABEL
+========================================================= */
+
+.error-destination span {
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: var(--tb-saffron);
+
+    font-size: 7px;
+    font-weight: 800;
+
+    letter-spacing: 1.7px;
+
+    text-transform: uppercase;
+}
+
+
+/* =========================================================
+   CARD TITLE
+========================================================= */
+
+.error-destination strong {
+    color: var(--tb-green-main);
+
+    font-family:
+        "Playfair Display",
+        Georgia,
+        serif;
+
+    font-size: 18px;
+
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.error-footer {
+    position: relative;
+
+    padding: 28px 20px;
+
+    background: var(--tb-green-dark);
+
+    color: rgba(255, 255, 255, 0.55);
+
+    text-align: center;
+}
+
+
+/* Tiranga footer line */
+
+.error-footer::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 3px;
+
+    background:
+        linear-gradient(
+            to right,
+            #ff671f 0%,
+            #ff671f 33.33%,
+            #ffffff 33.33%,
+            #ffffff 66.66%,
+            #046a38 66.66%,
+            #046a38 100%
+        );
+}
+
+.error-footer p {
+    margin: 0;
+
+    font-size: 10px;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .error-section {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+    .error-destinations {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .error-decoration-one {
+        left: 6%;
+    }
+
+    .error-decoration-two {
+        right: 6%;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .error-main {
+        padding-top: 80px;
+    }
+
+    .error-section {
+        min-height: calc(100vh - 80px);
+
+        padding:
+            55px 15px
+            40px;
+    }
+
+
+    /* Decorations */
+
+    .error-decoration-one {
+        top: 16%;
+        left: 4%;
+
+        font-size: 20px;
+    }
+
+    .error-decoration-two {
+        top: 20%;
+        right: 4%;
+
+        font-size: 24px;
+    }
+
+    .error-decoration-three {
+        bottom: 28%;
+        left: 6%;
+
+        font-size: 18px;
+    }
+
+
+    /* Tag */
+
+    .error-tag {
+        font-size: 8px;
+
+        letter-spacing: 2px;
+    }
+
+    .error-tag::before,
+    .error-tag::after {
+        width: 18px;
+    }
+
+
+    /* 404 */
+
+    .error-number {
+        margin-top: 20px;
+
+        font-size: 130px;
+
+        letter-spacing: -7px;
+
+        line-height: .82;
+    }
+
+    .error-number .white {
+        -webkit-text-stroke: 2px var(--tb-green-main);
+    }
+
+
+    /* Heading */
+
+    .error-content h1 {
+        margin-top: 25px;
+
+        font-size: 40px;
+
+        letter-spacing: -1px;
+    }
+
+
+    /* Paragraph */
+
+    .error-content > p {
+        padding: 0 5px;
+
+        font-size: 12px;
+
+        line-height: 1.8;
+    }
+
+
+    /* Buttons */
+
+    .error-buttons {
+        flex-direction: column;
+
+        width: 100%;
+    }
+
+    .error-primary-btn,
+    .error-secondary-btn {
+        width: 100%;
+
+        max-width: 300px;
+    }
+
+
+    /* Destination cards */
+
+    .error-destinations {
+        width: 100%;
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+        gap: 10px;
+
+        margin-top: 50px;
+    }
+
+    .error-destination {
+        min-height: 75px;
+
+        padding: 14px;
+    }
+
+    .error-destination strong {
+        font-size: 16px;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 380px) {
+
+    .error-section {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .error-number {
+        font-size: 105px;
+
+        letter-spacing: -5px;
+    }
+
+    .error-content h1 {
+        font-size: 34px;
+    }
+
+    .error-content > p {
+        font-size: 11px;
+    }
+
+    .error-destinations {
+        grid-template-columns: 1fr;
+    }
+
+    .error-destination {
+        min-height: 65px;
+    }
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .error-page *,
+    .error-page *::before,
+    .error-page *::after {
+        animation: none !important;
+        transition: none !important;
+    }
+}

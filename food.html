@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Indian Food | TravelBharat</title>
+
+    <meta
+        name="description"
+        content="Explore the traditional and famous foods of every Indian state and union territory with TravelBharat."
+    >
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/food.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/ai-bot.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container navbar-container">
+
+            <a href="index.html" class="logo">
+                <span>Travel</span>Bharat
+            </a>
+
+            <nav class="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="culture.html">Culture</a>
+                <a href="food.html" class="active">Food</a>
+                <a href="festivals.html">Festivals</a>
+                <a href="travel-guide.html">Travel Guide</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="favorites.html" class="nav-icon">♡</a>
+                <a href="profile.html" class="nav-profile">Profile</a>
+                <a href="login.html" class="login-btn">Login</a>
+            </div>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+                ☰
+            </button>
+
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="index.html">Home</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="culture.html">Culture</a>
+            <a href="food.html">Food</a>
+            <a href="festivals.html">Festivals</a>
+            <a href="travel-guide.html">Travel Guide</a>
+            <a href="favorites.html">Favorites</a>
+            <a href="profile.html">Profile</a>
+            <a href="login.html">Login</a>
+        </div>
+    </header>
+
+
+    <!-- Hero -->
+    <section class="food-hero">
+        <div class="food-hero-overlay">
+            <div class="container">
+                <span class="hero-tag">Taste of India</span>
+
+                <h1>Flavours of India</h1>
+
+                <p>
+                    Discover the rich, diverse and delicious food traditions
+                    from every corner of India.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Introduction -->
+    <section class="food-intro section">
+        <div class="container">
+
+            <div class="section-heading">
+                <span class="section-tag">Indian Cuisine</span>
+
+                <h2>
+                    A Journey Through
+                    <span>India's Flavours</span>
+                </h2>
+
+                <p>
+                    From spicy curries to delicious sweets, every region of
+                    India has its own unique culinary identity.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- States -->
+    <section class="food-section section" id="all-india-food">
+        <div class="container">
+
+            <div class="section-heading">
+                <span class="section-tag">28 States</span>
+
+                <h2>Food From Every State</h2>
+
+                <p>
+                    Explore traditional dishes that represent the culture
+                    and heritage of India's states.
+                </p>
+            </div>
+
+            <div
+                class="food-grid"
+                id="statesFoodGrid"
+                aria-live="polite"
+            >
+                <p class="food-loading">Loading food...</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Union Territories -->
+    <section class="food-section section" id="union-territories">
+        <div class="container">
+
+            <div class="section-heading">
+                <span class="section-tag">8 Union Territories</span>
+
+                <h2>Flavours of Union Territories</h2>
+
+                <p>
+                    Discover the unique cuisines and local specialities
+                    of India's union territories.
+                </p>
+            </div>
+
+            <div
+                class="food-grid"
+                id="utFoodGrid"
+                aria-live="polite"
+            >
+                <p class="food-loading">Loading food...</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Food & Culture -->
+    <section class="food-culture section">
+        <div class="container">
+
+            <div class="food-culture-content">
+
+                <div class="food-culture-text">
+                    <span class="section-tag">Food & Culture</span>
+
+                    <h2>
+                        Food That Tells
+                        <span>India's Story</span>
+                    </h2>
+
+                    <p>
+                        Indian food is more than just a meal. It reflects
+                        centuries of traditions, festivals, communities,
+                        geography and cultural heritage.
+                    </p>
+
+                    <p>
+                        Every dish has a story, and every region adds its
+                        own flavour to India's incredible culinary journey.
+                    </p>
+
+                    <a href="culture.html" class="btn">
+                        Explore Indian Culture
+                    </a>
+                </div>
+
+                <div class="food-culture-image">
+                    <img
+                        src="images/food/food-culture.jpg"
+                        alt="Traditional Indian Food"
+                        loading="lazy"
+                    >
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- CTA -->
+    <section class="food-cta section">
+        <div class="container">
+
+            <div class="cta-content">
+
+                <span class="section-tag">Explore India</span>
+
+                <h2>
+                    Ready to Taste
+                    <span>India?</span>
+                </h2>
+
+                <p>
+                    Plan your journey and experience India's incredible
+                    food, culture and destinations.
+                </p>
+
+                <a href="destinations.html" class="btn">
+                    Explore Destinations
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-content">
+
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span>Travel</span>Bharat
+                    </a>
+
+                    <p>
+                        Discover India. Experience its culture.
+                        Explore its flavours.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+
+                    <a href="index.html">Home</a>
+                    <a href="destinations.html">Destinations</a>
+                    <a href="culture.html">Culture</a>
+                    <a href="food.html">Food</a>
+                    <a href="festivals.html">Festivals</a>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Explore</h3>
+
+                    <a href="gallery.html">Gallery</a>
+                    <a href="travel-guide.html">Travel Guide</a>
+                    <a href="favorites.html">Favorites</a>
+                    <a href="profile.html">Profile</a>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Support</h3>
+
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="faq.html">FAQ</a>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    &copy; 2026 TravelBharat. All rights reserved.
+                </p>
+
+                <div class="footer-legal">
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms & Conditions</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/food.js"></script>
+
+</body>
+</html>

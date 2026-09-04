@@ -1,0 +1,1398 @@
+/* =========================================================
+   TAMIL NADU - TRAVELBHARAT
+   Complete State Page CSS
+   ========================================================= */
+
+
+/* =========================================================
+   ROOT
+   ========================================================= */
+
+:root {
+    --primary: #f59e0b;
+    --primary-dark: #d97706;
+
+    --dark: #111827;
+    --dark-2: #1f2937;
+    --dark-3: #374151;
+
+    --light: #f8f7f4;
+    --white: #ffffff;
+
+    --text: #374151;
+    --muted: #6b7280;
+
+    --border: #e5e7eb;
+
+    --shadow-sm: 0 8px 25px rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 15px 40px rgba(0, 0, 0, 0.10);
+    --shadow-lg: 0 25px 60px rgba(0, 0, 0, 0.15);
+
+    --container: 1180px;
+}
+
+
+/* =========================================================
+   RESET
+   ========================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body.tamilnadu-page {
+    font-family: "Inter", sans-serif;
+    background: var(--light);
+    color: var(--text);
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    color: inherit;
+}
+
+button,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+/* =========================================================
+   COMMON CONTAINER
+   ========================================================= */
+
+.tamilnadu-page .container {
+    width: min(var(--container), 92%);
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   NAVBAR
+   Same style as Uttarakhand / UP / West Bengal
+   ========================================================= */
+
+.tamilnadu-page .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+    padding: 22px 0;
+
+    background: rgba(8, 12, 18, 0.35);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.tamilnadu-page .navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+/* Logo */
+
+.tamilnadu-page .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    text-decoration: none;
+    flex-shrink: 0;
+}
+
+.tamilnadu-page .logo-mark {
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 12px;
+
+    background: #ffffff;
+    color: #111827;
+
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 1px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
+}
+
+.tamilnadu-page .logo-text {
+    color: #ffffff;
+
+    font-size: 22px;
+    font-weight: 800;
+
+    letter-spacing: -0.5px;
+}
+
+.tamilnadu-page .logo-text span {
+    color: var(--primary);
+}
+
+
+/* Navigation */
+
+.tamilnadu-page .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+}
+
+.tamilnadu-page .nav-links a {
+    position: relative;
+
+    color: rgba(255, 255, 255, 0.88);
+
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    padding: 8px 0;
+
+    transition:
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.tamilnadu-page .nav-links a:hover {
+    color: #ffffff;
+    transform: translateY(-1px);
+}
+
+.tamilnadu-page .nav-links a.active {
+    color: #ffffff;
+}
+
+.tamilnadu-page .nav-links a.active::after {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    bottom: -5px;
+
+    height: 2px;
+
+    background: var(--primary);
+
+    border-radius: 10px;
+}
+
+
+/* Right navigation */
+
+.tamilnadu-page .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+
+/* Login */
+
+.tamilnadu-page .nav-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 82px;
+
+    padding: 10px 18px;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 999px;
+
+    background: rgba(255, 255, 255, 0.08);
+
+    transition:
+        background 0.3s ease,
+        border-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.tamilnadu-page .nav-btn:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+
+    color: #111827;
+
+    transform: translateY(-2px);
+}
+
+
+/* Mobile button */
+
+.tamilnadu-page .menu-toggle {
+    display: none;
+
+    width: 42px;
+    height: 42px;
+
+    padding: 0;
+
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+
+    background: rgba(255, 255, 255, 0.08);
+
+    cursor: pointer;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+.tamilnadu-page .menu-toggle span {
+    width: 20px;
+    height: 2px;
+
+    display: block;
+
+    background: #ffffff;
+
+    border-radius: 10px;
+
+    transition: 0.3s ease;
+}
+
+
+/* Active hamburger */
+
+.tamilnadu-page .menu-toggle.active-toggle span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.tamilnadu-page .menu-toggle.active-toggle span:nth-child(2) {
+    opacity: 0;
+}
+
+.tamilnadu-page .menu-toggle.active-toggle span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.tamilnadu-page .state-hero {
+    position: relative;
+
+    min-height: 720px;
+
+    display: flex;
+    align-items: center;
+
+    overflow: hidden;
+
+    background: #111827;
+}
+
+
+/* Hero image */
+
+.tamilnadu-page .state-hero-image {
+    position: absolute;
+
+    inset: 0;
+
+    z-index: 0;
+}
+
+.tamilnadu-page .state-hero-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    object-position: center;
+}
+
+
+/* Hero overlay */
+
+.tamilnadu-page .state-hero-overlay {
+    position: absolute;
+
+    inset: 0;
+
+    z-index: 1;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(0, 0, 0, 0.78) 0%,
+            rgba(0, 0, 0, 0.52) 45%,
+            rgba(0, 0, 0, 0.18) 100%
+        );
+}
+
+
+/* Hero content */
+
+.tamilnadu-page .state-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.tamilnadu-page .state-hero-content {
+    max-width: 720px;
+
+    padding-top: 90px;
+
+    color: #ffffff;
+}
+
+
+/* State tag */
+
+.tamilnadu-page .state-tag {
+    display: inline-block;
+
+    margin-bottom: 18px;
+
+    color: var(--primary);
+
+    font-size: 12px;
+    font-weight: 800;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+}
+
+
+/* Hero heading */
+
+.tamilnadu-page .state-hero h1 {
+    margin-bottom: 20px;
+
+    color: #ffffff;
+
+    font-family: "Playfair Display", serif;
+
+    font-size: clamp(58px, 8vw, 100px);
+
+    line-height: 0.95;
+
+    font-weight: 600;
+
+    letter-spacing: -3px;
+}
+
+.tamilnadu-page .state-hero h1 em {
+    color: var(--primary);
+
+    font-style: italic;
+}
+
+
+/* If HTML uses span instead of em */
+
+.tamilnadu-page .state-hero h1 span {
+    color: var(--primary);
+}
+
+
+/* Hero paragraph */
+
+.tamilnadu-page .state-hero p {
+    max-width: 650px;
+
+    margin-bottom: 30px;
+
+    color: rgba(255, 255, 255, 0.88);
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+
+/* Hero button */
+
+.tamilnadu-page .state-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 14px 24px;
+
+    background: var(--primary);
+    color: #111827;
+
+    text-decoration: none;
+
+    border-radius: 999px;
+
+    font-size: 14px;
+    font-weight: 800;
+
+    box-shadow: 0 12px 30px rgba(245, 158, 11, 0.25);
+
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.tamilnadu-page .state-btn:hover {
+    background: #fbbf24;
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 18px 40px rgba(245, 158, 11, 0.35);
+}
+
+
+/* =========================================================
+   INTRO
+   ========================================================= */
+
+.tamilnadu-page .state-intro {
+    padding: 110px 0;
+
+    background: #ffffff;
+}
+
+.tamilnadu-page .state-intro-grid {
+    display: grid;
+
+    grid-template-columns: 0.9fr 1.1fr;
+
+    gap: 90px;
+
+    align-items: start;
+}
+
+.tamilnadu-page .state-intro h2,
+.tamilnadu-page .section-heading h2,
+.tamilnadu-page .food-content h2,
+.tamilnadu-page .state-cta h2 {
+    font-family: "Playfair Display", serif;
+
+    color: var(--dark);
+
+    font-size: clamp(38px, 5vw, 58px);
+
+    line-height: 1.1;
+
+    font-weight: 600;
+
+    letter-spacing: -1.5px;
+}
+
+.tamilnadu-page .state-intro h2 em,
+.tamilnadu-page .section-heading h2 em,
+.tamilnadu-page .food-content h2 em,
+.tamilnadu-page .state-cta h2 em {
+    color: var(--primary);
+
+    font-style: italic;
+}
+
+.tamilnadu-page .state-intro-grid > div:last-child {
+    padding-top: 20px;
+}
+
+.tamilnadu-page .state-intro p {
+    margin-bottom: 20px;
+
+    color: var(--muted);
+
+    font-size: 16px;
+
+    line-height: 1.9;
+}
+
+
+/* =========================================================
+   QUICK FACTS
+   ========================================================= */
+
+.tamilnadu-page .state-facts {
+    padding: 100px 0;
+
+    background: #f5f4f0;
+}
+
+.tamilnadu-page .section-heading {
+    max-width: 760px;
+
+    margin-bottom: 50px;
+}
+
+.tamilnadu-page .section-heading p {
+    margin-top: 15px;
+
+    color: var(--muted);
+
+    font-size: 16px;
+}
+
+
+.tamilnadu-page .facts-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+
+.tamilnadu-page .fact-card {
+    min-height: 150px;
+
+    padding: 28px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: #ffffff;
+
+    border: 1px solid var(--border);
+
+    border-radius: 18px;
+
+    box-shadow: var(--shadow-sm);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.tamilnadu-page .fact-card:hover {
+    transform: translateY(-6px);
+
+    border-color: rgba(245, 158, 11, 0.45);
+
+    box-shadow: var(--shadow-md);
+}
+
+.tamilnadu-page .fact-card span {
+    margin-bottom: 8px;
+
+    color: var(--primary);
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: 1.5px;
+}
+
+.tamilnadu-page .fact-card strong {
+    color: var(--dark);
+
+    font-size: 20px;
+
+    line-height: 1.35;
+}
+
+
+/* =========================================================
+   DESTINATIONS
+   ========================================================= */
+
+.tamilnadu-page .state-destinations {
+    padding: 110px 0;
+
+    background: #ffffff;
+}
+
+
+.tamilnadu-page .destination-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 26px;
+}
+
+
+.tamilnadu-page .destination-card {
+    overflow: hidden;
+
+    background: #ffffff;
+
+    border: 1px solid var(--border);
+
+    border-radius: 22px;
+
+    box-shadow: var(--shadow-sm);
+
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+.tamilnadu-page .destination-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow: var(--shadow-lg);
+}
+
+
+.tamilnadu-page .destination-image {
+    height: 300px;
+
+    overflow: hidden;
+
+    background: #e5e7eb;
+}
+
+.tamilnadu-page .destination-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: transform 0.6s ease;
+}
+
+.tamilnadu-page .destination-card:hover .destination-image img {
+    transform: scale(1.06);
+}
+
+
+.tamilnadu-page .destination-content {
+    padding: 26px 28px 30px;
+}
+
+.tamilnadu-page .destination-content > span {
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: var(--primary);
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+.tamilnadu-page .destination-content h3 {
+    margin-bottom: 8px;
+
+    color: var(--dark);
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 28px;
+
+    line-height: 1.2;
+}
+
+.tamilnadu-page .destination-content p {
+    color: var(--muted);
+
+    font-size: 14px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   FOOD
+   ========================================================= */
+
+.tamilnadu-page .state-food {
+    padding: 110px 0;
+
+    background: #111827;
+
+    color: #ffffff;
+}
+
+.tamilnadu-page .food-grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 80px;
+
+    align-items: center;
+}
+
+
+.tamilnadu-page .food-content .state-tag {
+    color: var(--primary);
+}
+
+.tamilnadu-page .food-content h2 {
+    color: #ffffff;
+
+    margin-bottom: 20px;
+}
+
+.tamilnadu-page .food-content > p {
+    max-width: 600px;
+
+    margin-bottom: 35px;
+
+    color: rgba(255, 255, 255, 0.70);
+
+    font-size: 15px;
+
+    line-height: 1.9;
+}
+
+
+.tamilnadu-page .food-list {
+    display: grid;
+
+    gap: 12px;
+}
+
+.tamilnadu-page .food-list > div {
+    padding: 17px 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid rgba(255, 255, 255, 0.10);
+
+    border-radius: 14px;
+
+    background: rgba(255, 255, 255, 0.05);
+
+    transition:
+        background 0.3s ease,
+        transform 0.3s ease;
+}
+
+.tamilnadu-page .food-list > div:hover {
+    background: rgba(255, 255, 255, 0.09);
+
+    transform: translateX(5px);
+}
+
+.tamilnadu-page .food-list strong {
+    margin-bottom: 2px;
+
+    color: #ffffff;
+
+    font-size: 16px;
+}
+
+.tamilnadu-page .food-list span {
+    color: rgba(255, 255, 255, 0.58);
+
+    font-size: 13px;
+}
+
+
+.tamilnadu-page .food-image {
+    height: 500px;
+
+    overflow: hidden;
+
+    border-radius: 24px;
+
+    box-shadow: var(--shadow-lg);
+}
+
+.tamilnadu-page .food-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: transform 0.6s ease;
+}
+
+.tamilnadu-page .food-image:hover img {
+    transform: scale(1.04);
+}
+
+
+/* =========================================================
+   CULTURE
+   ========================================================= */
+
+.tamilnadu-page .state-culture {
+    padding: 110px 0;
+
+    background: #f8f7f4;
+}
+
+
+.tamilnadu-page .culture-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+
+.tamilnadu-page .culture-card {
+    min-height: 260px;
+
+    padding: 30px;
+
+    background: #ffffff;
+
+    border: 1px solid var(--border);
+
+    border-radius: 20px;
+
+    box-shadow: var(--shadow-sm);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.tamilnadu-page .culture-card:hover {
+    transform: translateY(-7px);
+
+    box-shadow: var(--shadow-md);
+}
+
+
+.tamilnadu-page .culture-card > span {
+    display: block;
+
+    margin-bottom: 35px;
+
+    color: var(--primary);
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+.tamilnadu-page .culture-card h3 {
+    margin-bottom: 12px;
+
+    color: var(--dark);
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 23px;
+
+    line-height: 1.25;
+}
+
+.tamilnadu-page .culture-card p {
+    color: var(--muted);
+
+    font-size: 14px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   CTA
+   ========================================================= */
+
+.tamilnadu-page .state-cta {
+    position: relative;
+
+    padding: 110px 0;
+
+    overflow: hidden;
+
+    text-align: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            #171717,
+            #292524
+        );
+
+    color: #ffffff;
+}
+
+
+.tamilnadu-page .state-cta::before {
+    content: "";
+
+    position: absolute;
+
+    width: 400px;
+    height: 400px;
+
+    top: -200px;
+    left: -150px;
+
+    border-radius: 50%;
+
+    background: rgba(245, 158, 11, 0.10);
+
+    filter: blur(20px);
+}
+
+.tamilnadu-page .state-cta::after {
+    content: "";
+
+    position: absolute;
+
+    width: 350px;
+    height: 350px;
+
+    right: -150px;
+    bottom: -180px;
+
+    border-radius: 50%;
+
+    background: rgba(245, 158, 11, 0.08);
+
+    filter: blur(20px);
+}
+
+
+.tamilnadu-page .state-cta .container {
+    position: relative;
+
+    z-index: 2;
+}
+
+.tamilnadu-page .state-cta > .container > span {
+    display: block;
+
+    margin-bottom: 15px;
+
+    color: var(--primary);
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    letter-spacing: 3px;
+}
+
+.tamilnadu-page .state-cta h2 {
+    margin-bottom: 28px;
+
+    color: #ffffff;
+}
+
+
+.tamilnadu-page .state-cta a {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 13px 24px;
+
+    border: 1px solid rgba(255, 255, 255, 0.25);
+
+    border-radius: 999px;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    background: rgba(255, 255, 255, 0.06);
+
+    transition:
+        background 0.3s ease,
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.tamilnadu-page .state-cta a:hover {
+    background: var(--primary);
+
+    color: #111827;
+
+    transform: translateY(-3px);
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.tamilnadu-page .state-footer {
+    padding: 28px 20px;
+
+    text-align: center;
+
+    background: #0b0f14;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.tamilnadu-page .state-footer p {
+    color: rgba(255, 255, 255, 0.55);
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1000px) {
+
+    .tamilnadu-page .nav-links {
+        gap: 18px;
+    }
+
+    .tamilnadu-page .facts-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tamilnadu-page .culture-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tamilnadu-page .food-grid {
+        gap: 50px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE NAVBAR
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+    .tamilnadu-page .navbar {
+        padding: 18px 0;
+    }
+
+    .tamilnadu-page .nav-links {
+        position: absolute;
+
+        top: calc(100% + 10px);
+
+        left: 5%;
+        right: 5%;
+
+        display: flex;
+
+        flex-direction: column;
+        align-items: stretch;
+
+        gap: 0;
+
+        padding: 12px;
+
+        background: rgba(10, 15, 22, 0.97);
+
+        backdrop-filter: blur(18px);
+        -webkit-backdrop-filter: blur(18px);
+
+        border: 1px solid rgba(255, 255, 255, 0.12);
+
+        border-radius: 18px;
+
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+
+        opacity: 0;
+        visibility: hidden;
+
+        transform: translateY(-10px);
+
+        transition:
+            opacity 0.3s ease,
+            visibility 0.3s ease,
+            transform 0.3s ease;
+    }
+
+    .tamilnadu-page .nav-links.active-menu {
+        opacity: 1;
+
+        visibility: visible;
+
+        transform: translateY(0);
+    }
+
+    .tamilnadu-page .nav-links a {
+        display: block;
+
+        padding: 13px 15px;
+
+        border-radius: 10px;
+
+        font-size: 14px;
+    }
+
+    .tamilnadu-page .nav-links a:hover {
+        background: rgba(255, 255, 255, 0.08);
+
+        transform: none;
+    }
+
+    .tamilnadu-page .nav-links a.active {
+        background: rgba(245, 158, 11, 0.14);
+
+        color: var(--primary);
+    }
+
+    .tamilnadu-page .nav-links a.active::after {
+        display: none;
+    }
+
+    .tamilnadu-page .menu-toggle {
+        display: flex;
+    }
+
+    .tamilnadu-page .state-hero {
+        min-height: 650px;
+    }
+
+    .tamilnadu-page .state-hero-content {
+        padding-top: 80px;
+    }
+
+    .tamilnadu-page .state-intro-grid {
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+    }
+
+    .tamilnadu-page .state-intro-grid > div:last-child {
+        padding-top: 0;
+    }
+
+    .tamilnadu-page .destination-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tamilnadu-page .food-grid {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+    .tamilnadu-page .food-image {
+        height: 400px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+    .tamilnadu-page .container {
+        width: 90%;
+    }
+
+    .tamilnadu-page .logo-mark {
+        width: 38px;
+        height: 38px;
+
+        border-radius: 10px;
+
+        font-size: 13px;
+    }
+
+    .tamilnadu-page .logo-text {
+        font-size: 18px;
+    }
+
+    .tamilnadu-page .nav-right {
+        gap: 8px;
+    }
+
+    .tamilnadu-page .nav-btn {
+        min-width: auto;
+
+        padding: 8px 13px;
+
+        font-size: 12px;
+    }
+
+    .tamilnadu-page .menu-toggle {
+        width: 38px;
+        height: 38px;
+    }
+
+
+    /* Hero */
+
+    .tamilnadu-page .state-hero {
+        min-height: 620px;
+    }
+
+    .tamilnadu-page .state-hero-content {
+        padding-top: 90px;
+    }
+
+    .tamilnadu-page .state-hero h1 {
+        font-size: 58px;
+
+        letter-spacing: -2px;
+    }
+
+    .tamilnadu-page .state-hero p {
+        font-size: 14px;
+
+        line-height: 1.7;
+    }
+
+    .tamilnadu-page .state-btn {
+        padding: 12px 19px;
+
+        font-size: 13px;
+    }
+
+
+    /* Sections */
+
+    .tamilnadu-page .state-intro,
+    .tamilnadu-page .state-facts,
+    .tamilnadu-page .state-destinations,
+    .tamilnadu-page .state-food,
+    .tamilnadu-page .state-culture,
+    .tamilnadu-page .state-cta {
+        padding: 75px 0;
+    }
+
+
+    .tamilnadu-page .state-intro h2,
+    .tamilnadu-page .section-heading h2,
+    .tamilnadu-page .food-content h2,
+    .tamilnadu-page .state-cta h2 {
+        font-size: 40px;
+    }
+
+
+    /* Facts */
+
+    .tamilnadu-page .facts-grid {
+        grid-template-columns: 1fr;
+
+        gap: 14px;
+    }
+
+    .tamilnadu-page .fact-card {
+        min-height: 125px;
+    }
+
+
+    /* Destination */
+
+    .tamilnadu-page .destination-image {
+        height: 230px;
+    }
+
+    .tamilnadu-page .destination-content {
+        padding: 22px;
+    }
+
+    .tamilnadu-page .destination-content h3 {
+        font-size: 25px;
+    }
+
+
+    /* Food */
+
+    .tamilnadu-page .food-image {
+        height: 300px;
+
+        border-radius: 18px;
+    }
+
+
+    /* Culture */
+
+    .tamilnadu-page .culture-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tamilnadu-page .culture-card {
+        min-height: auto;
+
+        padding: 25px;
+    }
+
+    .tamilnadu-page .culture-card > span {
+        margin-bottom: 22px;
+    }
+
+}
+
+
+/* =========================================================
+   EXTRA SMALL DEVICES
+   ========================================================= */
+
+@media (max-width: 400px) {
+
+    .tamilnadu-page .logo-text {
+        font-size: 16px;
+    }
+
+    .tamilnadu-page .nav-btn {
+        display: none;
+    }
+
+    .tamilnadu-page .state-hero h1 {
+        font-size: 48px;
+    }
+
+    .tamilnadu-page .state-hero {
+        min-height: 590px;
+    }
+
+    .tamilnadu-page .state-tag {
+        font-size: 10px;
+
+        letter-spacing: 1.5px;
+    }
+
+}

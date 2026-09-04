@@ -1,0 +1,65 @@
+[
+  {
+    "id": "rajasthan",
+    "title": "Royal Heritage",
+    "category": "heritage",
+    "description": "Forts, palaces and timeless stories.",
+    "image": "images/gallery/rajasthan.jpg"
+  },
+  {
+    "id": "himalayas",
+    "title": "Into The Mountains",
+    "category": "mountains",
+    "description": "Experience the beauty of the Himalayas.",
+    "image": "images/gallery/himalayas.jpg"
+  },
+  {
+    "id": "goa",
+    "title": "Coastal Escape",
+    "category": "beaches",
+    "description": "Beautiful beaches and coastal landscapes.",
+    "image": "images/gallery/goa.jpg"
+  },
+  {
+    "id": "varanasi",
+    "title": "Spirit of the Ganges",
+    "category": "culture",
+    "description": "Discover the spiritual beauty of Varanasi.",
+    "image": "images/gallery/varanasi.jpg"
+  },
+  {
+    "id": "kerala",
+    "title": "God's Own Country",
+    "category": "nature",
+    "description": "Green landscapes and peaceful waters.",
+    "image": "images/gallery/kerala.jpg"
+  },
+  {
+    "id": "holi",
+    "title": "Festival of Colours",
+    "category": "culture",
+    "description": "Celebrate the vibrant colours of India.",
+    "image": "images/gallery/holi.jpg"
+  },
+  {
+    "id": "meghalaya",
+    "title": "Into the Green",
+    "category": "nature",
+    "description": "Explore the lush green beauty of Meghalaya.",
+    "image": "images/gallery/meghalaya.jpg"
+  },
+  {
+    "id": "taj-mahal",
+    "title": "Symbol of Love",
+    "category": "heritage",
+    "description": "The iconic Taj Mahal of Agra.",
+    "image": "images/gallery/taj-mahal.jpg"
+  },
+  {
+    "id": "ladakh",
+    "title": "Land of High Passes",
+    "category": "nature",
+    "description": "Raw landscapes beyond imagination.",
+    "image": "images/gallery/ladakh.jpg"
+  }
+]

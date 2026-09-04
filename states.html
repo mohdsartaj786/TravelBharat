@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore all Indian states and Union Territories with TravelBharat. Discover destinations, culture, food, heritage and beautiful places across India.">
+    <title>States of India | TravelBharat</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/states.css">
+    <link rel="stylesheet" href="css/ai-bot.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-mark">TB</div>
+                <div class="logo-text">Travel<span>Bharat</span></div>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="states.html" class="active">States</a>
+                <a href="food.html">Food</a>
+                <a href="culture.html">Culture</a>
+                <a href="gallery.html">Gallery</a>
+            </nav>
+            <div class="nav-right">
+                <a href="login.html" class="nav-btn">Login</a>
+                <button class="menu-toggle" type="button" aria-label="Open Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="states-hero">
+            <div class="states-hero-image">
+                <img src="images/states/hero.jpg" alt="Beautiful India landscape">
+            </div>
+            <div class="states-hero-overlay"></div>
+            <div class="container">
+                <div class="states-hero-content">
+                    <span class="state-tag">EXPLORE INDIA</span>
+                    <h1>Discover <em>India.</em></h1>
+                    <p>Explore India's diverse states and Union Territories, rich heritage, breathtaking landscapes, delicious food and vibrant cultures.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="states-list">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="state-tag">STATES & UNION TERRITORIES</span>
+                    <h2>Explore every <em>corner.</em></h2>
+                    <p>Choose a state or Union Territory and discover its famous destinations, food, culture and heritage.</p>
+                </div>
+
+                <div class="state-filters">
+                    <button class="state-filter active" data-region="all">All</button>
+                    <button class="state-filter" data-region="north">North India</button>
+                    <button class="state-filter" data-region="south">South India</button>
+                    <button class="state-filter" data-region="east">East India</button>
+                    <button class="state-filter" data-region="west">West India</button>
+                    <button class="state-filter" data-region="northeast">Northeast</button>
+                    <button class="state-filter" data-region="central">Central India</button>
+                    <button class="state-filter" data-region="ut">Union Territories</button>
+                </div>
+
+                <div class="states-grid">
+                    <article class="state-card" data-region="north">
+                        <div class="state-card-image">
+                            <img src="images/states/uttar-pradesh/hero.jpg" alt="Uttar Pradesh">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">01</span>
+                            <h3>Uttar Pradesh</h3>
+                            <p>Discover Varanasi, Agra, Lucknow, Ayodhya and the rich heritage of UP.</p>
+                            <a href="states/uttar-pradesh.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="north">
+                        <div class="state-card-image">
+                            <img src="images/states/uttarakhand/hero.jpg" alt="Uttarakhand">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">02</span>
+                            <h3>Uttarakhand</h3>
+                            <p>Explore Himalayan mountains, temples, valleys and peaceful towns.</p>
+                            <a href="states/uttarakhand.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="east">
+                        <div class="state-card-image">
+                            <img src="images/states/west-bengal/hero.jpg" alt="West Bengal">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">03</span>
+                            <h3>West Bengal</h3>
+                            <p>Experience Kolkata, Darjeeling, Sundarbans and Bengali culture.</p>
+                            <a href="states/west-bengal.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="northeast">
+                        <div class="state-card-image">
+                            <img src="images/states/tripura/hero.jpg" alt="Tripura">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">04</span>
+                            <h3>Tripura</h3>
+                            <p>Discover royal palaces, forests, temples and tribal traditions.</p>
+                            <a href="states/tripura.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="south">
+                        <div class="state-card-image">
+                            <img src="images/states/telangana/hero.jpg" alt="Telangana">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">05</span>
+                            <h3>Telangana</h3>
+                            <p>Explore Hyderabad, historic forts, temples and Deccan culture.</p>
+                            <a href="states/telangana.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="south">
+                        <div class="state-card-image">
+                            <img src="images/states/tamilnadu/hero.jpg" alt="Tamil Nadu">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">06</span>
+                            <h3>Tamil Nadu</h3>
+                            <p>Discover ancient temples, beaches, classical arts and Tamil culture.</p>
+                            <a href="states/tamil-nadu.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="west">
+                        <div class="state-card-image">
+                            <img src="images/states/rajasthan/hero.jpg" alt="Rajasthan">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">07</span>
+                            <h3>Rajasthan</h3>
+                            <p>Experience royal forts, palaces, deserts and colourful traditions.</p>
+                            <a href="states/rajasthan.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="west">
+                        <div class="state-card-image">
+                            <img src="images/states/gujarat/hero.jpg" alt="Gujarat">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">08</span>
+                            <h3>Gujarat</h3>
+                            <p>Explore heritage cities, temples, handicrafts and the Rann of Kutch.</p>
+                            <a href="states/gujarat.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="south">
+                        <div class="state-card-image">
+                            <img src="images/states/kerala/hero.jpg" alt="Kerala">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">09</span>
+                            <h3>Kerala</h3>
+                            <p>Enjoy backwaters, beaches, greenery, Ayurveda and traditional culture.</p>
+                            <a href="states/kerala.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="south">
+                        <div class="state-card-image">
+                            <img src="images/states/andhra-pradesh/hero.jpg" alt="Andhra Pradesh">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">10</span>
+                            <h3>Andhra Pradesh</h3>
+                            <p>Discover Tirupati, beaches, temples, valleys and coastal landscapes.</p>
+                            <a href="states/andhra-pradesh.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="northeast">
+                        <div class="state-card-image">
+                            <img src="images/states/arunachal-pradesh/hero.jpg" alt="Arunachal Pradesh">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">11</span>
+                            <h3>Arunachal Pradesh</h3>
+                            <p>Explore mountains, monasteries, valleys and beautiful Himalayan scenery.</p>
+                            <a href="states/arunachal-pradesh.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="northeast">
+                        <div class="state-card-image">
+                            <img src="images/states/assam/hero.jpg" alt="Assam">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">12</span>
+                            <h3>Assam</h3>
+                            <p>Experience tea gardens, wildlife, Brahmaputra landscapes and culture.</p>
+                            <a href="states/assam.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="east">
+                        <div class="state-card-image">
+                            <img src="images/states/bihar/hero.jpg" alt="Bihar">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">13</span>
+                            <h3>Bihar</h3>
+                            <p>Discover Bodh Gaya, Nalanda, Patna and ancient Buddhist heritage.</p>
+                            <a href="states/bihar.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="central">
+                        <div class="state-card-image">
+                            <img src="images/states/chhattisgarh/hero.jpg" alt="Chhattisgarh">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">14</span>
+                            <h3>Chhattisgarh</h3>
+                            <p>Explore waterfalls, forests, caves, tribal culture and natural beauty.</p>
+                            <a href="states/chhattisgarh.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="west">
+                        <div class="state-card-image">
+                            <img src="images/states/goa/hero.jpg" alt="Goa">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">15</span>
+                            <h3>Goa</h3>
+                            <p>Enjoy beautiful beaches, Portuguese heritage, nightlife and coastal culture.</p>
+                            <a href="states/goa.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="north">
+                        <div class="state-card-image">
+                            <img src="images/states/haryana/hero.jpg" alt="Haryana">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">16</span>
+                            <h3>Haryana</h3>
+                            <p>Discover historic sites, rural traditions, ancient heritage and modern cities.</p>
+                            <a href="states/haryana.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="north">
+                        <div class="state-card-image">
+                            <img src="images/states/himachal-pradesh/hero.jpg" alt="Himachal Pradesh">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">17</span>
+                            <h3>Himachal Pradesh</h3>
+                            <p>Explore snowy mountains, valleys, hill towns and peaceful landscapes.</p>
+                            <a href="states/himachal-pradesh.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="east">
+                        <div class="state-card-image">
+                            <img src="images/states/jharkhand/hero.jpg" alt="Jharkhand">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">18</span>
+                            <h3>Jharkhand</h3>
+                            <p>Discover waterfalls, forests, wildlife and tribal traditions.</p>
+                            <a href="states/jharkhand.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="south">
+                        <div class="state-card-image">
+                            <img src="images/states/karnataka/hero.jpg" alt="Karnataka">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">19</span>
+                            <h3>Karnataka</h3>
+                            <p>Explore Bengaluru, Mysuru, Hampi, waterfalls and rich heritage.</p>
+                            <a href="states/karnataka.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="central">
+                        <div class="state-card-image">
+                            <img src="images/states/madhya-pradesh/hero.jpg" alt="Madhya Pradesh">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">20</span>
+                            <h3>Madhya Pradesh</h3>
+                            <p>Discover Khajuraho, Ujjain, wildlife, forts and India's central heritage.</p>
+                            <a href="states/madhya-pradesh.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="west">
+                        <div class="state-card-image">
+                            <img src="images/states/maharashtra/hero.jpg" alt="Maharashtra">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">21</span>
+                            <h3>Maharashtra</h3>
+                            <p>Explore Mumbai, forts, caves, beaches and vibrant Marathi culture.</p>
+                            <a href="states/maharashtra.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="northeast">
+                        <div class="state-card-image">
+                            <img src="images/states/manipur/hero.jpg" alt="Manipur">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">22</span>
+                            <h3>Manipur</h3>
+                            <p>Discover Loktak Lake, hills, traditions, dance and northeastern culture.</p>
+                            <a href="states/manipur.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="northeast">
+                        <div class="state-card-image">
+                            <img src="images/states/meghalaya/hero.jpg" alt="Meghalaya">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">23</span>
+                            <h3>Meghalaya</h3>
+                            <p>Explore waterfalls, caves, living root bridges and green mountain landscapes.</p>
+                            <a href="states/meghalaya.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="northeast">
+                        <div class="state-card-image">
+                            <img src="images/states/mizoram/hero.jpg" alt="Mizoram">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">24</span>
+                            <h3>Mizoram</h3>
+                            <p>Discover peaceful hills, forests, villages and vibrant Mizo culture.</p>
+                            <a href="states/mizoram.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="northeast">
+                        <div class="state-card-image">
+                            <img src="images/states/nagaland/hero.jpg" alt="Nagaland">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">25</span>
+                            <h3>Nagaland</h3>
+                            <p>Experience tribal traditions, hills, festivals and unique Naga culture.</p>
+                            <a href="states/nagaland.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="east">
+                        <div class="state-card-image">
+                            <img src="images/states/odisha/hero.jpg" alt="Odisha">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">26</span>
+                            <h3>Odisha</h3>
+                            <p>Explore Puri, Konark, ancient temples, beaches and traditional arts.</p>
+                            <a href="states/odisha.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="north">
+                        <div class="state-card-image">
+                            <img src="images/states/punjab/hero.jpg" alt="Punjab">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">27</span>
+                            <h3>Punjab</h3>
+                            <p>Discover the Golden Temple, historic sites, farms and vibrant Punjabi culture.</p>
+                            <a href="states/punjab.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="northeast">
+                        <div class="state-card-image">
+                            <img src="images/states/sikkim/hero.jpg" alt="Sikkim">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">28</span>
+                            <h3>Sikkim</h3>
+                            <p>Explore Himalayan peaks, monasteries, lakes and peaceful mountain towns.</p>
+                            <a href="states/sikkim.html" class="state-card-link">Explore State →</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="section-heading union-heading">
+                    <span class="state-tag">UNION TERRITORIES</span>
+                    <h2>Discover India's <em>Union Territories.</em></h2>
+                    <p>Explore India's unique Union Territories, from Himalayan landscapes to tropical islands.</p>
+                </div>
+
+                <div class="states-grid">
+                    <article class="state-card" data-region="ut">
+                        <div class="state-card-image">
+                            <img src="images/union-territories/andaman-nicobar/hero.jpg" alt="Andaman and Nicobar Islands">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">UT-01</span>
+                            <h3>Andaman & Nicobar Islands</h3>
+                            <p>Discover tropical beaches, coral reefs, forests and fascinating marine life.</p>
+                            <a href="union-territories/andaman-nicobar.html" class="state-card-link">Explore Territory →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="ut">
+                        <div class="state-card-image">
+                            <img src="images/union-territories/chandigarh/hero.jpg" alt="Chandigarh">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">UT-02</span>
+                            <h3>Chandigarh</h3>
+                            <p>Explore modern architecture, gardens, museums and India's planned city.</p>
+                            <a href="union-territories/chandigarh.html" class="state-card-link">Explore Territory →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="ut">
+                        <div class="state-card-image">
+                            <img src="images/union-territories/dadra-nagar-haveli-daman-diu/hero.jpg" alt="Dadra Nagar Haveli and Daman Diu">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">UT-03</span>
+                            <h3>Dadra & Nagar Haveli and Daman & Diu</h3>
+                            <p>Enjoy beaches, Portuguese heritage, forests and peaceful landscapes.</p>
+                            <a href="union-territories/dadra-nagar-haveli-daman-diu.html" class="state-card-link">Explore Territory →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="ut">
+                        <div class="state-card-image">
+                            <img src="images/union-territories/delhi/hero.jpg" alt="Delhi">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">UT-04</span>
+                            <h3>Delhi</h3>
+                            <p>Discover historic monuments, markets, museums and the culture of India's capital.</p>
+                            <a href="union-territories/delhi.html" class="state-card-link">Explore Territory →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="ut">
+                        <div class="state-card-image">
+                            <img src="images/union-territories/jammu-kashmir/hero.jpg" alt="Jammu and Kashmir">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">UT-05</span>
+                            <h3>Jammu & Kashmir</h3>
+                            <p>Experience valleys, lakes, gardens, mountains and beautiful Himalayan scenery.</p>
+                            <a href="union-territories/jammu-kashmir.html" class="state-card-link">Explore Territory →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="ut">
+                        <div class="state-card-image">
+                            <img src="images/union-territories/ladakh/hero.jpg" alt="Ladakh">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">UT-06</span>
+                            <h3>Ladakh</h3>
+                            <p>Explore dramatic mountains, monasteries, high-altitude lakes and unique landscapes.</p>
+                            <a href="union-territories/ladakh.html" class="state-card-link">Explore Territory →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="ut">
+                        <div class="state-card-image">
+                            <img src="images/union-territories/lakshadweep/hero.jpg" alt="Lakshadweep">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">UT-07</span>
+                            <h3>Lakshadweep</h3>
+                            <p>Discover crystal-clear waters, coral islands, beaches and marine life.</p>
+                            <a href="union-territories/lakshadweep.html" class="state-card-link">Explore Territory →</a>
+                        </div>
+                    </article>
+
+                    <article class="state-card" data-region="ut">
+                        <div class="state-card-image">
+                            <img src="images/union-territories/puducherry/hero.jpg" alt="Puducherry">
+                        </div>
+                        <div class="state-card-content">
+                            <span class="state-card-number">UT-08</span>
+                            <h3>Puducherry</h3>
+                            <p>Experience French-inspired architecture, beaches, cafés and coastal culture.</p>
+                            <a href="union-territories/puducherry.html" class="state-card-link">Explore Territory →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-state">
+            <div class="container">
+                <div class="featured-grid">
+                    <div class="featured-image">
+                        <img src="images/states/uttar-pradesh/hero.jpg" alt="Uttar Pradesh">
+                    </div>
+                    <div class="featured-content">
+                        <span class="state-tag">FEATURED DESTINATION</span>
+                        <h2>Uttar <em>Pradesh</em></h2>
+                        <p>From the sacred ghats of Varanasi to the magnificent Taj Mahal in Agra, Uttar Pradesh is a journey through India's history, spirituality and culture.</p>
+                        <a href="states/uttar-pradesh.html" class="featured-btn">Explore Uttar Pradesh →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="states-cta">
+            <div class="container">
+                <span class="state-tag">TRAVELBHARAT</span>
+                <h2>Your journey across <em>India</em> starts here.</h2>
+                <a href="destinations.html">Explore Destinations →</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="state-footer">
+        <p>© 2026 TravelBharat. Explore India. Experience Bharat.</p>
+    </footer>
+
+    <script src="js/states.js"></script>
+    <script src="js/ai-bot.js"></script>
+</body>
+</html>
