@@ -15,7 +15,9 @@ const foodRoutes = require("./routes/foodRoutes");
 const galleryRoutes = require("./routes/galleryRoutes");
 const stateRoutes = require("./routes/stateRoutes");
 const travelGuideRoutes = require("./routes/travelGuideRoutes");
+const transportRoutes = require("./routes/transportRoutes");
 const aiRoutes = require("./routes/aiRoutes");
+
 const errorMiddleware = require("./middleware/errorMiddleware");
 
 const app = express();
@@ -29,11 +31,16 @@ dns.setServers([
 ]);
 
 app.use(cors());
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static(path.join(__dirname, "..")));
-app.use("/uploads", express.static(path.join(__dirname, "uploads")));
+
+app.use(
+    "/uploads",
+    express.static(path.join(__dirname, "uploads"))
+);
 
 app.get("/api/health", (req, res) => {
     res.status(200).json({
@@ -47,14 +54,24 @@ app.get("/api/health", (req, res) => {
 });
 
 app.use("/api/auth", authRoutes);
+
 app.use("/api/favorites", favoriteRoutes);
+
 app.use("/api/culture", cultureRoutes);
+
 app.use("/api/destinations", destinationRoutes);
+
 app.use("/api/festivals", festivalRoutes);
+
 app.use("/api/food", foodRoutes);
+
 app.use("/api/gallery", galleryRoutes);
+
 app.use("/api/states", stateRoutes);
+
 app.use("/api/travel-guide", travelGuideRoutes);
+
+app.use("/api/transport", transportRoutes);
 
 app.get("/api/ai-test", (req, res) => {
     res.json({
@@ -83,13 +100,19 @@ app.use(errorMiddleware);
 const connectDatabase = async () => {
     try {
         if (!MONGO_URI) {
-            throw new Error("MONGO_URI is missing in .env file");
+            throw new Error(
+                "MONGO_URI is missing in .env file"
+            );
         }
 
         await mongoose.connect(MONGO_URI);
 
-        console.log("MongoDB connected successfully");
+        console.log(
+            "MongoDB connected successfully"
+        );
+
     } catch (error) {
+
         console.error(
             "MongoDB connection failed:",
             error.message
@@ -100,12 +123,19 @@ const connectDatabase = async () => {
 };
 
 const startServer = async () => {
+
     await connectDatabase();
 
     app.listen(PORT, () => {
+
         console.log(
             `TravelBharat server running at http://localhost:${PORT}`
         );
+
+        console.log(
+            `Transport API: http://localhost:${PORT}/api/transport`
+        );
+
     });
 };
 

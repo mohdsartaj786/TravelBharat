@@ -25,7 +25,7 @@
       "month": "April",
       "description": "Bihu is Assam's famous festival featuring traditional dance, music, feasts and celebrations welcoming the agricultural season.",
       "location": "Guwahati",
-      "image": "images/festivals/bihu.jpg"
+      "image": "images/festivals/states/bihu.jpg"
     },
     {
       "id": "bihar",
@@ -106,7 +106,7 @@
       "month": "August / September",
       "description": "Onam is Kerala's major harvest festival celebrated with flower carpets, traditional feasts, boat races and cultural performances.",
       "location": "Kochi",
-      "image": "images/festivals/onam.jpg"
+      "image": "images/festivals/states/onam.jpg"
     },
     {
       "id": "madhya-pradesh",
@@ -205,7 +205,7 @@
       "month": "January",
       "description": "Pongal is Tamil Nadu's major harvest festival celebrated with traditional dishes, decorated homes, kolams and cultural activities.",
       "location": "Madurai",
-      "image": "images/festivals/pongal.jpg"
+      "image": "images/festivals/states/pongal.jpg"
     },
     {
       "id": "telangana",
@@ -214,7 +214,7 @@
       "month": "September / October",
       "description": "Bathukamma is a beautiful floral festival where women create colorful flower arrangements and celebrate with songs and dances.",
       "location": "Hyderabad",
-      "image": "images/festivals/states/telangana.jpg"
+      "image": "images/festivals/states/Bathukamma.jpg"
     },
     {
       "id": "tripura",
@@ -232,7 +232,7 @@
       "month": "March",
       "description": "Holi is celebrated across Uttar Pradesh with colors, music, sweets and joyful gatherings, especially famous in Mathura and Vrindavan.",
       "location": "Mathura & Vrindavan",
-      "image": "images/festivals/holi.jpg"
+      "image": "images/festivals/states/holi.jpg"
     },
     {
       "id": "uttarakhand",
@@ -250,7 +250,7 @@
       "month": "September / October",
       "description": "Durga Puja is West Bengal's grandest festival, famous for artistic pandals, beautiful idols, cultural performances and processions.",
       "location": "Kolkata",
-      "image": "images/festivals/durga-puja.jpg"
+      "image": "images/festivals/states/durga-puja.jpg"
     },
     {
       "id": "andaman-nicobar",
@@ -286,7 +286,7 @@
       "month": "October / November",
       "description": "Diwali transforms Delhi with lights, decorations, traditional sweets, prayers and festive gatherings across the city.",
       "location": "New Delhi",
-      "image": "images/festivals/diwali.jpg"
+      "image": "images/festivals/ut/diwali.jpg"
     },
     {
       "id": "jammu-kashmir",

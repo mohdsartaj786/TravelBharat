@@ -201,6 +201,106 @@
                 </div>
             </div>
         </section>
+
+        <!-- TRANSPORT PLANNER -->
+        <section class="section transport-section">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-tag">PLAN YOUR JOURNEY</span>
+                        <h2>Travel Across India</h2>
+                        <p>Find the best way to travel from one destination to another.</p>
+                </div>
+
+            <div class="transport-planner">
+
+                <div class="transport-form">
+
+                    <div class="transport-field">
+                        <label for="fromCity">From</label>
+                    <div class="transport-input">
+                        <span>📍</span>
+                        <input type="text" id="fromCity" placeholder="Enter starting city">
+                    </div>
+                </div>
+
+                <button class="swap-btn" id="swapTransport" type="button">⇄</button>
+
+                <div class="transport-field">
+                    <label for="toCity">To</label>
+                    <div class="transport-input">
+                        <span>📍</span>
+                        <input type="text" id="toCity" placeholder="Enter destination">
+                    </div>
+                </div>
+
+                <div class="transport-field">
+                    <label for="travelDate">Travel Date</label>
+                    <div class="transport-input">
+                        <span>📅</span>
+                        <input type="date" id="travelDate">
+                    </div>
+                </div>
+
+                <div class="transport-field">
+                    <label for="passengers">Passengers</label>
+                    <div class="transport-input">
+                        <span>👥</span>
+                        <select id="passengers">
+                            <option value="1">1 Passenger</option>
+                            <option value="2">2 Passengers</option>
+                            <option value="3">3 Passengers</option>
+                            <option value="4">4 Passengers</option>
+                            <option value="5">5 Passengers</option>
+                            <option value="6">6+ Passengers</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button class="transport-search-btn" id="transportSearch">
+                    🔍 Search Transport
+                </button>
+
+            </div>
+
+            <div class="transport-types">
+
+                <div class="transport-type active">
+                    <span>🚆</span>
+                    <strong>Train</strong>
+                    <small>Comfortable journeys</small>
+                </div>
+
+                <div class="transport-type">
+                    <span>✈️</span>
+                    <strong>Flight</strong>
+                    <small>Fast travel</small>
+                </div>
+
+                <div class="transport-type">
+                    <span>🚌</span>
+                        <strong>Bus</strong>
+                        <small>Affordable travel</small>
+                    </div>
+
+                    <div class="transport-type">
+                        <span>🚕</span>
+                        <strong>Cab</strong>
+                        <small>Local transport</small>
+                    </div>
+
+                </div>
+
+                <div class="transport-result" id="transportResult">
+                    <div class="result-icon">🧳</div>
+                        <div>
+                            <h3>Ready to explore?</h3>
+                            <p>Enter your journey details to find suitable transport options.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
         <section class="section experience-section">
             <div class="container">
                 <div class="section-heading">
@@ -350,5 +450,6 @@
     <script src="js/search.js"></script>
     <script src="js/map.js"></script>
     <script src="js/ai-bot.js"></script>
+    <script src="js/transport.js"></script>
 </body>
 </html>
